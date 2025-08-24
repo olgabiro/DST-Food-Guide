@@ -2,12 +2,10 @@ import {Component, OnInit} from '@angular/core';
 import {Dish, DishesService} from './dishes.service';
 import {DishComponent} from './dish';
 import {MatGridList, MatGridTile} from '@angular/material/grid-list';
-import {MatCard, MatCardContent} from '@angular/material/card';
 import {MatFormField, MatLabel, MatOption, MatSelect} from '@angular/material/select';
 import {MatInput} from '@angular/material/input';
 import {FormsModule} from '@angular/forms';
 import {MatCheckbox} from '@angular/material/checkbox';
-import {MatRadioButton, MatRadioGroup} from '@angular/material/radio';
 
 @Component({
   selector: 'app-dish-list',
@@ -15,17 +13,13 @@ import {MatRadioButton, MatRadioGroup} from '@angular/material/radio';
     DishComponent,
     MatGridList,
     MatGridTile,
-    MatCard,
-    MatCardContent,
     MatSelect,
     MatLabel,
     MatFormField,
     MatInput,
     FormsModule,
     MatOption,
-    MatCheckbox,
-    MatRadioGroup,
-    MatRadioButton
+    MatCheckbox
   ],
   templateUrl: './dish-list.html',
   styleUrl: './dish-list.css'
@@ -57,9 +51,11 @@ export class DishList implements OnInit {
     });
   }
 
-  private compareDishesAscending(a: Dish, b: Dish) : 1 | -1 | 0 {
-    if (a[this.sortBy] < b[this.sortBy]) return -1;
-    if (a[this.sortBy] > b[this.sortBy]) return 1;
+  private compareDishesAscending(a: Dish, b: Dish): 1 | -1 | 0 {
+    let valueA = a[this.sortBy] ?? "";
+    let valueB = b[this.sortBy] ?? "";
+    if (valueA < valueB) return -1;
+    if (valueA > valueB) return 1;
     return 0;
   }
 
