@@ -1,4 +1,4 @@
-import { Dish } from './dishes.service';
+import { Dish } from './dish.service';
 
 export const SHIPWRECKED_DISHES: Dish[] = [
   { name: 'Coffee', hungerValue: 9.375, sanityValue: -10, healthValue: 5 },

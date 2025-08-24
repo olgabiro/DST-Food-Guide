@@ -1,4 +1,4 @@
-import { Dish } from './dishes.service';
+import { Dish } from './dish.service';
 
 export const WINTER_FEAST_DISHES: Dish[] = [
   { name: 'Berrysauce', hungerValue: 25, sanityValue: 15, healthValue: 10 },

@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {Dish, DishesService} from './dishes.service';
-import {DishComponent} from './dish';
+import {Dish, DishService} from '../dish.service';
+import {DishComponent} from '../dish';
 import {MatGridList, MatGridTile} from '@angular/material/grid-list';
 import {MatFormField, MatLabel, MatOption, MatSelect} from '@angular/material/select';
 import {MatInput} from '@angular/material/input';
@@ -31,7 +31,7 @@ export class DishList implements OnInit {
   sortBy: keyof Dish = 'name';
   ascending: boolean = true;
 
-  constructor(private readonly service: DishesService) {
+  constructor(private readonly service: DishService) {
   }
 
   ngOnInit() {

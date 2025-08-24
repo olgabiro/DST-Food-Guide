@@ -12,7 +12,7 @@ import {
   MatTable
 } from "@angular/material/table";
 import {MatCheckbox} from "@angular/material/checkbox";
-import {Dish, DishesService} from '../../dish/dishes.service';
+import {Dish} from '../../dish/dish.service';
 import {SelectionModel} from '@angular/cdk/collections';
 
 @Component({
@@ -35,12 +35,8 @@ import {SelectionModel} from '@angular/cdk/collections';
 })
 export class CompletionGrid implements OnInit {
   dishes = input.required<Dish[]>();
-  columnsToDisplay = ['select', 'name'];
+  columnsToDisplay = ['select', 'name', 'requirements'];
   selection = new SelectionModel<Dish>(true, []);
-
-  constructor(private readonly dishesService: DishesService) {
-
-  }
 
   ngOnInit() {
     this.dishes()

@@ -1,4 +1,4 @@
-import { Dish } from './dishes.service';
+import { Dish } from './dish.service';
 
 export const KEG_DISHES: Dish[] = [
   { name: 'Beer', hungerValue: 12.5, sanityValue: -10, healthValue: 5, cookingTime: 1 },

@@ -1,4 +1,4 @@
-import { Dish } from './dishes.service';
+import { Dish } from './dish.service';
 
 export const HAMLET_DISHES: Dish[] = [
   { name: 'Feijoada', hungerValue: 75, sanityValue: 15, healthValue: 20 },

@@ -10,6 +10,11 @@
       <mat-checkbox (change)="onSelectDish(dish)" [checked]="selection.isSelected(dish)"></mat-checkbox>
   </ng-container>
 
+  <ng-container matColumnDef="requirements">
+    <th mat-header-cell *matHeaderCellDef>Requirements</th>
+    <td mat-cell *matCellDef="let dish">{{ dish.requirements }}</td>
+  </ng-container>
+
   <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
   <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
 </table>

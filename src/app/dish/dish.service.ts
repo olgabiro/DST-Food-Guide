@@ -6,7 +6,7 @@ import {SHIPWRECKED_DISHES} from './dishes-shipwrecked';
 @Injectable({
   providedIn: 'root'
 })
-export class DishesService {
+export class DishService {
 
   getDishes(): Dish[] {
     return GENERAL_DISHES.concat(HAMLET_DISHES).concat(SHIPWRECKED_DISHES);
@@ -19,4 +19,5 @@ export interface Dish {
   sanityValue: number;
   healthValue: number;
   cookingTime?: number;
+  requirements?: string;
 }

@@ -1,4 +1,4 @@
-import { Dish } from './dishes.service';
+import { Dish } from './dish.service';
 
 export const WARLY_DISHES: Dish[] = [
   { name: 'Mussel Bouillabaise', hungerValue: 37.5, sanityValue: 15, healthValue: 60 },

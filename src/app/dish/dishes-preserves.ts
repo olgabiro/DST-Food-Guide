@@ -1,4 +1,4 @@
-import { Dish } from './dishes.service';
+import { Dish } from './dish.service';
 
 export const PRESERVES_DISHES: Dish[] = [
   { name: 'Mayonnaise', hungerValue: 12.5, sanityValue: 15, healthValue: 10, cookingTime: 1 },

@@ -1,4 +1,4 @@
-import { Dish } from './dishes.service';
+import { Dish } from './dish.service';
 
 export const HALLOWED_NIGHTS_DISHES: Dish[] = [
   { name: 'Brain Noodles', hungerValue: 32.5, sanityValue: 30, healthValue: 10 },

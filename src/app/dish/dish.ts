@@ -1,5 +1,5 @@
 import {Component, input} from '@angular/core';
-import {Dish} from './dishes.service';
+import {Dish} from './dish.service';
 import {MatCard, MatCardContent, MatCardHeader} from '@angular/material/card';
 
 @Component({
@@ -14,5 +14,4 @@ import {MatCard, MatCardContent, MatCardHeader} from '@angular/material/card';
 })
 export class DishComponent {
   dish = input.required<Dish>();
-
 }
