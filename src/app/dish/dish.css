@@ -1,3 +1,7 @@
 .dish-card {
   width: 160px;
 }
+
+mat-card-header {
+  color: var(--mat-sys-primary);
+}

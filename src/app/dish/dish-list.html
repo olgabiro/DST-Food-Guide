@@ -1,3 +1,20 @@
+<div class="filters">
+  <mat-form-field>
+    <mat-label>Search</mat-label>
+    <input matInput placeholder="Ex. Pizza" [(ngModel)]="searchTerm" (ngModelChange)="onSearchChange($event)">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Sort by</mat-label>
+    <mat-select [(value)]="sortBy" (valueChange)="onSortChange()">
+      <mat-option value="name">Name</mat-option>
+      <mat-option value="hungerValue">Hunger</mat-option>
+      <mat-option value="sanityValue">Sanity</mat-option>
+      <mat-option value="healthValue">Health</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-checkbox [checked]="ascending" (change)="onAscendingChange()">Ascending</mat-checkbox>
+</div>
 <mat-grid-list cols="8" rowHeight="2:3">
   @for (dish of dishes; track dish.name) {
     <mat-grid-tile>
