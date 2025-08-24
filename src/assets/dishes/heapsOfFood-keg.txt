@@ -1,0 +1,314 @@
+Beer
+Requires 2 Units of Wheat and 1 Unit of Ice.
+Health: +5 | Hunger: +12.5 | Sanity: -10
+Takes: 1 Day to produce.
+Effects: Increases strength.
+
+Pale Ale
+Requires 2 Units of Spotty Sprig and 1 Unit of Ice.
+Health: +15 | Hunger: +25 | Sanity: -10
+Takes: 2 Days to produce.
+Effects: Increases strength.
+
+Green Tea
+Requires 1 Unit of Green Cap, 1 Unit of Orange Piko and 1 Unit of Tea Leaves.
+Health: +12 | Hunger: +32 | Sanity: +1
+Takes: 1 Day to produce.
+Effects: Restores sanity over time.
+
+Black Tea
+Requires 1 Unit of Red Cap, 1 Unit of Piko and 1 Unit of Tea Leaves.
+Health: +1 | Hunger: +32 | Sanity: +12
+Takes: 1 Day to produce.
+Effects: Restores health over time.
+
+Mead
+Requires 2 Units of Honey or Syrup and 1 Unit of Ice.
+Health: -10 | Hunger: +70 | Sanity: +40
+Takes: 3 Days to produce.
+Effects: Increases defense.
+
+Pirate's Rum
+Requires 1 Unit of Durian, 1 Unit of Syrup and 1 Unit of Ice.
+Health: -15 | Hunger: +60 | Sanity: -33
+Takes: 2 Days to produce.
+Effects: Increases damage to pirates.
+
+Twisted Tequila
+Requires 1 Unit of Aloe, 1 Unit of Spotty Sprig and 1 Unit of Ice.
+Health: +15 | Hunger: 32.5 | Sanity: -30
+Takes: 1 Day to produce.
+Effects: Twists the spacetime.
+
+Nuka-Cola
+Requires 1 Unit of Sugar, 1 Unit of Syrup and 1 Unit of Ice.
+Health: -5 | Hunger: +12.5 | Sanity: +60
+Takes: 2 Days to produce.
+Effects: Cools the body.
+
+Nuka-Cola Quantum
+Requires 1 Unit of Sugar, 1 Unit of Glow Berry and 1 Unit of Ice.
+Health: -10 | Hunger: +20 | Sanity: +60
+Takes: 3 Days to produce.
+Effects: Cools the body and Gives off a healthy glow.
+
+Nukashine
+Requires 1 Unit of Nuka-Cola Quantum, 1 Unit of Sugar and 1 Unit of Nightberry.
+Health: +100 | Hunger: +150 | Sanity: -100
+Takes: 3 Days to produce.
+Effects: May cause blackouts.
+
+Sake
+Requires 2 Units of Rice and 1 Unit of Ice.
+Health: -10 | Hunger: 32.5 | Sanity: +20
+Takes: 2 Days to produce.
+Effects: Increases defense.
+
+Mocha
+Requires 2 Units of Cooked Coffee Beans and 1 Unit of Chocolate.
+Health: -10 | Hunger: +33 | Sanity: +33
+Takes: 3 Days to produce.
+Effects: Warms the body, wards off sleep, speeds the body and decreases hunger loss.
+
+Croak-Cola
+Requires 1 Unit of Poison Frog Legs, 1 Unit of Sugar and 1 Unit of Ice.
+Health: -30 | Hunger: +12.5 | +80
+Takes: 3 Days to produce.
+Effects: Increases damage to amphibians.
+
+Tepache
+Requires 1 Unit of Halved Pineapple, 1 Unit of Sugar and 1 Unit of Ice.
+Health: +20 | Hunger: +12.5 | Sanity: +33
+Takes: 1 Day to produce.
+Effects: Cools the body.
+
+Enlightened Tequila
+Requires 1 Unit of Lunar Tree Blossom, 1 Unit of Pure Brilliance and 1 Unit of Ice.
+Health: +5 | Hunger: +12.5 | Sanity: +100
+Takes: 3 Days to produce.
+Effects: Enlightens the mind.
+
+Sneakmosa
+Requires 1 Unit of Halved Pineapple, 1 Unit of Pure Horror and 1 Unit of Ice.
+Health: +5 | Hunger: +12.5 | Sanity: -100
+Takes: 3 Days to produce.
+Effects: Hides your presence.
+
+Berries Wine
+Requires 2 Units of Berries and 1 Unit of Ice.
+Health: +10 | Hunger: +20 | Sanity: +40
+Takes: 3 Days to produce.
+
+Juicy Berries Wine
+Requires 2 Units of Juicy Berries and 1 Unit of Ice.
+Health: +10 | Hunger: +20 | Sanity: +40
+Takes: 3 Days to produce.
+
+Pomegranate Wine
+Requires 2 Units of Pomegranate and 1 Unit of Ice.
+Health: +10 | Hunger: +25 | Sanity: +40
+Takes: 3 Days to produce.
+
+Dragon Fruit Wine
+Requires 2 Units of Dragon Fruit and 1 Unit of Ice.
+Health: +40 | Hunger: +20 | Sanity: +40
+Takes: 3 Days to produce.
+
+Cave Banana Wine
+Requires 2 Units of Cave Banana and 1 Unit of Ice.
+Health: +10 | Hunger: +25 | Sanity: +40
+Takes: 3 Days to produce.
+
+Durian Wine
+Requires 2 Units of Durian and 1 Unit of Ice.
+Health: -5 | Hunger: +35 | Sanity: -40
+Takes: 3 Days to produce.
+
+Watermelon Wine
+Requires 2 Units of Watermelon and 1 Unit of Ice.
+Health: +10 | Hunger: +25 | Sanity: +40
+Takes: 3 Days to produce.
+
+Fig Wine
+Requires 2 Units of Fig and 1 Unit of Ice.
+Health: +10 | Hunger: +25 | Sanity: +40
+Takes: 3 Days to produce.
+
+Glow Berry Wine
+Requires 2 Units of Glow Berry or Lesser Glow Berry and 1 Unit of Ice.
+Health: +20 | Hunger: +40 | Sanity: -10
+Takes: 3 Days to produce.
+Effects: Gives off a healthy glow.
+
+Banana Wine
+Requires 2 Units of Banana and 1 Unit of Ice.
+Health: +10 | Hunger: +25 | Sanity: +40
+Takes: 3 Days to produce.
+
+Coconut Wine
+Requires 2 Units of Halved Coconut and 1 Unit of Ice.
+Health: +10 | Hunger: +25 | Sanity: +40
+Takes: 3 Days to produce.
+
+Pineapple Wine
+Requires 2 Units of Halved Pineapple and 1 Unit of Ice.
+Health: +40 | Hunger: +25 | Sanity: +20
+Takes: 3 Days to produce.
+
+Nightberry Wine
+Requires 2 Units of Nightberry and 1 Unit of Ice.
+Health: +0 | Hunger: +35 | Sanity: +15
+Takes: 3 Days to produce.
+Effects: Grants night vision.
+
+Carrot Juice
+Requires 2 Units of Carrot and 1 Unit of Ice.
+Health: +40 | Hunger: +20 | Sanity: +10
+Takes: 3 Days to produce.
+
+Corn Juice
+Requires 2 Units of Corn and 1 Unit of Ice.
+Health: +40 | Hunger: +25 | Sanity: +10
+Takes: 3 Days to produce.
+
+Eggplant Juice
+Requires 2 Units of Eggplant and 1 Unit of Ice.
+Health: +25 | Hunger: +35 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pumpkin Juice
+Requires 2 Units of Pumpkin and 1 Unit of Ice.
+Health: +30 | Hunger: +30 | Sanity: +10
+Takes: 3 Days to produce.
+
+Lichen Juice
+Requires 2 Units of Lichen and 1 Unit of Ice.
+Health: +30 | Hunger: +20 | Sanity: -15
+Takes: 3 Days to produce.
+
+Cactus Juice
+Requires 2 Units of Cactus or Cactus Flower and 1 Unit of Ice.
+Health: +40 | Hunger: +40 | Sanity: +10
+Takes: 3 Days to produce.
+
+Garlic Juice
+Requires 2 Units of Garlic and 1 Unit of Ice.
+Health: +30 | Hunger: +25 | Sanity: -5
+Takes: 3 Day sto produce.
+
+Asparagus Juice
+Requires 2 Units of Asparagus and 1 Unit of Ice.
+Health: +45 | Hunger: +20 | Sanity: +10
+Takes: 3 Days to produce.
+
+Onion Juice
+Requires 2 Units of Onion and 1 Unit of Ice.
+Health: +40 | Hunger: +25 | Sanity: -20
+Takes: 3 Days to produce.
+
+Toma Root Juice
+Requires 2 Units of Toma Root and 1 Unit of Ice.
+Health: +50 | Hunger: +25 | Sanity: +10
+Takes: 3 Days to produce.
+
+Potato Juice
+Requires 2 Units of Potato and 1 Unit of Ice.
+Health: +30 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pepper Juice
+Requires 2 Units of Pepper and 1 Unit of Ice.
+Health: +30 | Hunger: +45 | Sanity: -20
+Takes: 3 Days to produce.
+Effects: Warms the body.
+
+Red Cap Juice
+Requires 2 Units of Red Cap and 1 Unit of Ice.
+Health: +30 | Hunger: +40 | Sanity: +10
+Takes: 3 Days to produce.
+
+Green Cap Juice
+Requires 2 Units of Green Cap and 1 Unit of Ice.
+Health: +20 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Blue Cap Juice
+Requires 2 Units of Blue Cap and 1 Unit of Ice.
+Health: +40 | Hunger: +20 | Sanity: +10
+Takes: 3 Days to produce.
+
+Moon Shroom Juice
+Requires 2 Units of Moon Shroom and 1 Unit of Ice.
+Health: +25 | Hunger: +35 | Sanity: +10
+Takes: 3 Days to produce.
+Effects: Wards off sleep.
+
+Kelp Juice
+Requires 2 Units of Kelp and 1 Unit of Ice.
+Health: +35 | Hunger: +65 | Sanity: -20
+Takes: 3 Days to produce.
+
+Ripe Stone Fruit Juice
+Requires 2 Units of Ripe Stone Fruit and 1 Unit of Ice.
+Health: +20 | Hunger: +45 | Sanity: +10
+Takes: 3 Days to produce.
+
+Champignon Juice
+Requires 2 Units of Champignon and 1 Unit of Ice.
+Health: +25 | Hunger: +62.5 | Sanity: -10
+Takes: 3 Days to produce.
+
+Aloe Juice
+Requires 2 Units of Aloe and 1 Unit of Ice.
+Health: +25 | Hunger: +50 | Sanity: +10
+Takes: 3 Days to produce.
+
+Radish Juice
+Requires 2 Units of Radish and 1 Unit of Ice.
+Health: +25 | Hunger: +35 | Sanity: +10
+Takes: 3 Days to produce.
+
+Sweet Potato Juice
+Requires 2 Units of Sweet Potato and 1 Unit of Ice.
+Health: +40 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Lotus Flower Juice
+Requires 2 Units of Lotus Flower and 1 Unit of Ice.
+Health: +60 | Hunger: +20 | Sanity: +10
+Takes: 3 Days to produce.
+
+Seaweed Juice
+Requires 2 Units of Seaweed and 1 Unit of Ice.
+Health: +20 | Hunger: +62.5 | Sanity: -10
+Takes: 3 Days to produce.
+
+Taro Root Juice
+Requires 2 Units of Taro Root and 1 Unit of Ice.
+Health: +40 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Watercress Juice
+Requires 2 Units of Watercress and 1 Unit of Ice.
+Health: +35 | Hunger: +20 | Sanity: +10
+Takes: 3 Days to produce.
+
+Sea Cucumber Juice
+Requires 2 Units of Sea Cucumber and 1 Unit of Ice.
+Health: +30 | Hunger: +30 | Sanity: +10
+Takes: 3 Days to produce.
+
+Parsnip Juice
+Requires 2 Units of Parsnip and 1 Unit of Ice.
+Health: +20 | Hunger: +20 | Sanity: +10
+Takes: 3 Days to produce.
+
+Turnip Juice
+Requires 2 Units of Turnip and 1 Unit of Ice.
+Health: +20 | Hunger: +70 | Sanity: +10
+Takes: 3 Days to produce.
+
+Fennel Juice
+Requires 2 Units of Fennel and 1 Unit of Ice.
+Health: +35 | Hunger: +70 | Sanity: -20
+Takes: 3 Days to produce.

@@ -18,4 +18,5 @@ export interface Dish {
   hungerValue: number;
   sanityValue: number;
   healthValue: number;
+  cookingTime?: number;
 }
