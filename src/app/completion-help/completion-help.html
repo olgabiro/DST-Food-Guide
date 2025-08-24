@@ -5,7 +5,7 @@
       <mat-label>Search</mat-label>
       <input matInput placeholder="Ex: Meat" [(ngModel)]="filterText" (change)="onSearchChange()"/>
     </mat-form-field>
-    <mat-checkbox [checked]="hideSelected" (change)="onHideSelectedChange()">Hide selected</mat-checkbox>
+    <mat-checkbox [checked]="hideSelected" (change)="onHideSelectedChange()">Hide completed</mat-checkbox>
   </div>
   <div>
     <app-completion-grid [dishes]="dishes()"/>
