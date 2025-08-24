@@ -18,6 +18,7 @@ Effects: Cools the body.
 
 Jack-o'-Cream
 Requires 1 Unit of Pumpkin, 1 Unit of Halved Pineapple, 1 Unit of Pomegranate and 1 Unit of Dairy. Can't have Hot Pumpkin.
+Health: +0 | Hunger: +0 | Sanity: +0
 
 Tacodile
 Requires 1 Unit of Flour, 1 Unit of Spot Spice, 1 Unit of Pepper and 1 Unit of Onion.

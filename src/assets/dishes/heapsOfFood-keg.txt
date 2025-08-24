@@ -72,7 +72,7 @@ Effects: Warms the body, wards off sleep, speeds the body and decreases hunger l
 
 Croak-Cola
 Requires 1 Unit of Poison Frog Legs, 1 Unit of Sugar and 1 Unit of Ice.
-Health: -30 | Hunger: +12.5 | +80
+Health: -30 | Hunger: +12.5 | Sanity +80
 Takes: 3 Days to produce.
 Effects: Increases damage to amphibians.
 

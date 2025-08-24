@@ -20,4 +20,5 @@ export interface Dish {
   healthValue: number;
   cookingTime?: number;
   requirements?: string;
+  effects?: string;
 }

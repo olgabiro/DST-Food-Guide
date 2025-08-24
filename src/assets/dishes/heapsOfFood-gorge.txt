@@ -1,0 +1,239 @@
+Loaf of Bread
+Requires 3-4 Units of Flour. Can't have Spot Spice.
+Health: +3 | Hunger: +12.5 | Sanity: 0
+Effects: Gives 3 Units when cooked and Is a Crock Pot ingredient.
+
+Sweet Potato Chips
+Requires 2 Units of Sweet Potato, 1 Unit of Oil and 1 Unit of Spot Spice.
+Health: +25 | Hunger: +75 | Sanity: +15
+
+Vegetable Soup
+Requires 1 Unit of Carrot, 1 Unit of Onion, 1 Unit of Corn and 1 Unit of Foliage. Can't have Potato.
+Health: +8 | Hunger: +25 | Sanity: +10
+
+Jelly Sandwich
+Requires 1 Unit of Bread, 1 Unit of Berries. Can't have Inedible, Veggie, Meat or Fish.
+Health: +3 | Hunger: +37.5 | Sanity: +15
+
+Fish Stew
+Requires 2 Units of Salmon, 1 Unit of Asparagus and 1 Unit of Spot Spice. Can't have Bread.
+Health: +20 | Hunger: +100 | Sanity: +5
+
+Turnip Cake
+Requires 2 Units of Turnip and 1 Unit of Flour and 1 Unit of Egg. Can't have Dairy.
+Health: +20 | Hunger: +37.5 | Sanity: +10
+
+Potato Pancakes
+Requires 3 Units of Potato and 1 Unit of Flour. Can't have Egg or Fish.
+Health: +40 | Hunger: +40 | Sanity: +40
+
+Potato Soup
+Requires 3 Units of Potato and 1 Unit of Succulent.
+Health: +60 | Hunger: +75 | Sanity: +15
+
+Fishball Skewers
+Requires 1 Unit of Fish, 1 Unit of Twigs and 1 Unit of Spot Spice.
+Health: +25 | Hunger: +37.5 | Sanity: +20
+
+Meat Skewers
+Requires 2 Units of Bacon Scraps, 1 Unit of Twigs and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +37.5 | Sanity: +5
+
+Stone Soup
+Requires 1 Unit of Rocks and 1 Unit of Veggie.
+Health: -10 | Hunger: +25 | Sanity: +5
+
+Croquette
+Requires 2 Units of Potato, 1 Unit of Egg and 1 Unit of Flour. Can't have Cooked Potato.
+Health: +30 | Hunger: +50 | Sanity: +10
+
+Roast Vegetables
+Requires 1 Unit of Cooked Onion, 1 Unit of Cooked Asparagus, 1 Unit of Cooked Garlic and 1 Unit of Cooked Carrot.
+Health: +25 | Hunger: +40 | Sanity: +20
+
+Meatloaf
+Requires 2 Units of Bacon Scraps, 1 Unit of Flour and 1 Unit of Veggie. Can't have Foliage.
+Health: +30 | Hunger: +25 | Sanity: +5
+
+Carrot Soup
+Requires 3 Units of Carrot and 1 Unit of Spot Spice.
+Health: +10 | Hunger: +37.5 | Sanity: +10
+
+Fish Pie
+Requires 1 Unit of Salmon, 1 Unit of Flour and 1 Unit of Veggie. Can't have Bread.
+Health: +40 | Hunger: +62.5 | Sanity: +5
+
+Fish and Chips
+Requires 1 Unit of Fish, 1 Unit of Flour and 2 Units of Potato.
+Health: +50 | Hunger: +85 | Sanity: +15
+
+Meat Pie
+Requires 1 Unit of Meat, 2 Units of Flour and 1 Unit of Veggie. Can't have Potato, Onion or Bacon Scraps.
+Health: +3 | Hunger: +50 | Sanity: +25
+
+Sliders
+Requires 2 Units of Bacon Scraps, 1 Unit of Bread and 1 Unit of Foliage. Can't have Loaf of Bread.
+Health: +5 | Hunger: +12.5 | Sanity: +25
+
+Jelly Roll
+Requires 3 Units of Berries and 1 Unit of Flour.
+Health: +8 | Hunger: +25 | Sanity: +15
+
+Carrot Cake
+Requires 2 Units of Carrot, 1 Unit of Flour and 1 Unit of Egg. Can't have Cooked Carrot.
+Health: +15 | Hunger: +37.5 | Sanity: +5
+
+Garlic Mashed Potatoes
+Requires 2 Units of Garlic, 1 Unit of Potato and 1 Unit of Spot Spice.
+Health: +30 | Hunger: +37.5 | Sanity: +15
+
+Garlic Bread
+Requires 1 Unit of Bread and 2 Units of Garlic. Can't have Meat or Fish.
+Health: +30 | Hunger: +37.5 | Sanity: +5
+
+Tomato Soup
+Requires 3 Units of Toma Roots and 1 Unit of Spot Spice.
+Health: +25 | Hunger: +50 | Sanity: +15
+
+Sausage
+Requires 3 Units of Bacon Scraps and 1 Unit of Spot Spice.
+Health: +30 | Hunger: +37.5 | Sanity: +10
+
+Candied Fish
+Requires 1 Unit of Salmon and 1 Unit of Syrup.
+Health: +5 | Hunger: +25 | Sanity: +60
+
+Stuffed Mushroom
+Requires 3 Units of Champignon. Can't have Foliage, Succulent or Dairy.
+Health: +15 | Hunger: +20 | Sanity: +10
+
+Bruschetta
+Requires 1 Unit of Bread, 1 Unit of Spot Spice and 2 Units of Toma Roots.
+Health: +50 | Hunger: +62.5 | Sanity: +10
+
+Hamburger
+Requires 1 Unit of Bread, 1 Unit of Meat, 1 Unit of Bacon Scraps and 1 Unit of Foliage. Can't have Fish.
+Health: +5 | Hunger: +80 | Sanity: +5
+
+Fishburger
+Requires 1 Unit of Bread, 1 Unit of Salmon and 1 Unit of Foliage.
+Health: +20 | Hunger: +80 | Sanity: +5
+
+Mushroom Burger
+Requires 1 Unit of Bread, 2 Units of Champignon and 1 Unit of Foliage.
+Health: +5 | Hunger: +80 | Sanity: +0
+
+Fish Steak
+Requires 1 Unit of Cooked Salmon, 1 Unit of Foliage and 1 Unit of Spot Spice. Can't have Raw Salmon.
+Health: +15 | Hunger: +150 | Sanity: +15
+
+Curry
+Requires 1 Unit of Meat, 1 Unit of Veggie and 2 Units of Spot Spice.
+Health: +10 | Hunger: +75 | Sanity: +15
+
+Spaghetti and Meatball
+Requires 1 Unit of Meat, 1 Unit of Flour, 1 Unit of Spot Spice and 1 Unit of Toma Root.
+Health: +8 | Hunger: +80 | Sanity: +25
+
+Poached Fish
+Requires 1 Unit of Salmon, 2 Units of Foliage and 1 Unit of Spot Spice.
+Health: +40 | Hunger: +25 | Sanity: +25
+
+Shepherd's Pie
+Requires 1 Unit of Meat, 1 Unit of Onion, 1 Unit of Garlic and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +150 | Sanity: +10
+
+Caramel Candy
+Requires 1 Unit of Syrup and 4 Units of Sweetener.
+Health: 0 | Hunger: +20 | Sanity: +33
+Effects: Speeds the hands.
+
+Bread Pudding
+Requires 1 Unit of Berries, 2 Units of Flour and 1 Unit of Syrup.
+Health: +15 | Hunger: +40 | Sanity: +40
+
+Berry Tart
+Requires 2 Units of Berries, 1 Unit of Flour and 1 Unit of Sweetener. Can't have Syrup.
+Health: +25 | Hunger: +20 | Sanity: +15
+
+Macaroni and Cheese
+Requires 2 Units of Flour and 1 Unit of Milk. Can't have Fish, Meat, Bread, Fruit or Syrup.
+Health: +20 | Hunger: +37.5 | Sanity: +50
+
+Bagel and Fish
+Requires 1 Unit of Bread, 1 Unit of Milk, 1 Unit of Salmon and 1 Unit of Spot Spice.
+Health: +50 | Hunger: +75 | Sanity: +50
+
+Grilled Cheese
+Requires 1 Unit of Dairy or Cheese and 1 Unit of Bread. Can't have Fish, Meat or Spot Spice. Can't have more than 1 Unit of Inedible.
+Health: +60 | Hunger: +50 | Sanity: +40
+
+Cream of Mushroom Soup
+Requires 1 Unit of Milk, 2 Units of Champignon and 1 Unit of Succulent.
+Health: +30 | Hunger: +50 | Sanity: +25
+
+Manicotti
+Requires 1 Unit of Flour, 1 Unit of Milk, 1 Unit of Spot Spice and 1 Unit of Toma Root.
+Health: +8 | Hunger: +50 | Sanity: +50
+
+Creamy Fettuccine
+Requires 1 Unit of Flour, 1 Unit of Garlic, 1 Unit of Succulent and 1 Unit of Dairy.
+Health: +20 | Hunger: +50 | Sanity: +40
+
+Onion Soup
+Requires 1 Unit of Flour, 1 Unit of Dairy and 2 Units of Onion.
+Health: +25 | Hunger: +75 | Sanity -5
+
+Bread Cutlet
+Requires 2 Units of Meat and 2 Units of Flour. Can't have more than 1 Unit of Monster Food.
+Health: +30 | Hunger: +75 | Sanity: +15
+
+Creamy Fish
+Requires 1 Unit of Milk, 1 Unit of Veggie, 1 Unit of Salmon and 1 Unit of Spot Spice.
+Health: +40 | Hunger: +75 | Sanity: +30
+
+Pot Roast
+Requires 2 Units of Meat, 1 Unit of Veggie and 1 Unit of Spot Spice. Can't have Fish.
+Health: +30 | Hunger: +150 | Sanity +5
+
+Crab Cake
+Requires 1 Unit of Crab Meat, 1 Unit of Succulent, 1 Unit of Flour and 1 Unit of Spot Spice.
+Health: +60 | Hunger: +62.5 | Sanity: +20
+
+Steak Frites
+Requires 2 Units of Meat and 2 Units of Potato.
+Health: +40 | Hunger: +100 | Sanity: +5
+
+Shooter Sandwich
+Requires 1 Unit of Meat, 1 Unit of Bread and 1 Unit of Spot Spice. Can't have Fish and Toma Root.
+Health: +5 | Hunger: +100 | Sanity: +15
+
+Bacon Wrapped Meat
+Requires 1 Unit of Meat and 2 Units of Bacon Scraps. Can't have Inedible or Bread.
+Health: +10 | Hunger: +50 | Sanity: 0
+
+Crab Roll
+Requires 1 Unit of Crab Meat, 1 Unit of Foliage, 1 Unit of Champignon and 1 Unit of Flour.
+Health: +60 | Hunger: +75 | Sanity: +25
+
+Crab Ravioli
+Requires 1 Unit of Crab Meat, 1 Unit of Flour, 1 Unit of Dairy and 1 Unit of Veggie.
+Health: +60 | Hunger: +40 | Sanity: +50
+
+Caramel Cube
+Requires 2 Units of Syrup and 2 Units of Dairy.
+Health: -10 | Hunger: +20 | Sanity: +100
+Effects: Kyno's favourite dish.
+
+Scone
+Requires 1 Unit of Fruit, 2 Units of Flour and 1 Unit of Dairy.
+Health: +5 | Hunger: +37.5 | Sanity: +40
+
+Cheesecake
+Requires 2 Units of Berries, 1 Unit of Flour and 1 Unit of Dairy.
+Health: +20 | Hunger: +75 | Sanity: +60
+
+Syrup
+Requires 3-4 Units of Sap and 1 Unit of Dairy or Sweetener. Can't have Monster Food.
+Health: +3 | Hunger: +9.375 | Sanity: 0
+Effects: Gives 3 Units if cooked on Elder's Pot.
