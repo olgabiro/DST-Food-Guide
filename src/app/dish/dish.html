@@ -1,6 +1,12 @@
 <div class="dish-card">
-  <h2>{{ dish().name }}</h2>
-  <p>Hunger: {{ dish().hungerValue }}</p>
-  <p>Sanity: {{ dish().sanityValue }}</p>
-  <p>Health: {{ dish().healthValue }}</p>
+  <mat-card>
+    <mat-card-header>
+      <h2>{{ dish().name }}</h2>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Hunger: {{ dish().hungerValue }}</p>
+      <p>Sanity: {{ dish().sanityValue }}</p>
+      <p>Health: {{ dish().healthValue }}</p>
+    </mat-card-content>
+  </mat-card>
 </div>

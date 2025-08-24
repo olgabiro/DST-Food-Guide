@@ -1,3 +1,7 @@
-@for (dish of dishes; track dish.name) {
-  <app-dish [dish]="dish" />
-}
+<mat-grid-list cols="8" rowHeight="2:3">
+  @for (dish of dishes; track dish.name) {
+    <mat-grid-tile>
+      <app-dish [dish]="dish"/>
+    </mat-grid-tile>
+  }
+</mat-grid-list>

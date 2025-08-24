@@ -1,9 +1,14 @@
 import {Component, input} from '@angular/core';
 import {Dish} from './dishes.service';
+import {MatCard, MatCardContent, MatCardHeader} from '@angular/material/card';
 
 @Component({
   selector: 'app-dish',
-  imports: [],
+  imports: [
+    MatCard,
+    MatCardHeader,
+    MatCardContent
+  ],
   templateUrl: './dish.html',
   styleUrl: './dish.css'
 })

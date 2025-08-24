@@ -1,11 +1,14 @@
 import {Component, OnInit} from '@angular/core';
 import {Dish, DishesService} from './dishes.service';
 import {DishComponent} from './dish';
+import {MatGridList, MatGridTile} from '@angular/material/grid-list';
 
 @Component({
   selector: 'app-dish-list',
   imports: [
-    DishComponent
+    DishComponent,
+    MatGridList,
+    MatGridTile
   ],
   templateUrl: './dish-list.html',
   styleUrl: './dish-list.css'
