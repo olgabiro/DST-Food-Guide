@@ -1,4 +1,7 @@
 import {Injectable} from '@angular/core';
+import {GENERAL_DISHES} from './dishes-general';
+import {HAMLET_DISHES} from './dishes-hamlet';
+import {SHIPWRECKED_DISHES} from './dishes-shipwrecked';
 
 @Injectable({
   providedIn: 'root'
@@ -6,14 +9,7 @@ import {Injectable} from '@angular/core';
 export class DishesService {
 
   getDishes(): Dish[] {
-    return [
-      {
-        name: 'Coffee',
-        hungerValue: 9.375,
-        sanityValue: -10,
-        healthValue: 5
-      }
-    ];
+    return GENERAL_DISHES.concat(HAMLET_DISHES).concat(SHIPWRECKED_DISHES);
   }
 }
 

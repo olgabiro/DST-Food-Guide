@@ -1,0 +1,72 @@
+Berrysauce
+Requires 2 Units of Berries and 2 Units of Sweetener.
+Health: +10 | Hunger: +25 | Sanity: +15
+
+Bibingka
+Requires 2 Units of Succulent, 1 Unit of Foliage and 1 Unit of Veggie.
+Health: +20 | Hunger: +20 | Sanity: 0
+
+Cabbage Rolls
+Requires 2 Units of Watercress and 1 Unit of Syrup. Can't have Flour.
+Health: +5 | Hunger: +32.5 | Sanity: +15
+
+Festive Fish Dish
+Requires 1 Unit of Fish and 1 Unit of Succulent. Can't have Sweetener or Wobster.
+Health: +30 | Hunger: +62.5 | Sanity: +1
+
+Good Gravy
+Requires 1 Unit of Syrup, 1 Unit of Flour and 1 Unit of Meat.
+Health: +5 | Hunger: +32.5 | Sanity: +15
+
+Latkes
+Requires 2 Units of Potato and 1 Unit of Dairy.
+Health: +5 | Hunger: +50 | Sanity: +20
+
+Lutefisk
+Requires 2 Units of Fish, 1 Unit of Pepper and 1 Unit of Foliage.
+Health: +5 | Hunger: +75 | Sanity: +5
+
+Mulled Punch
+Requires 1 Unit of Syrup, 1 Unit of Sweetener and 1 Unit of Ice. Can't have Forget-Me-Lots, Meats, Berries, Fruits or Lichen.
+Health: +15 | Hunger: +12.5 | Sanity: +33
+
+Panettone
+Requires 2 Units of Flour and 2 Units of Fruit.
+Health: +20 | Hunger: +32.5 | Sanity: +15
+
+Pavlova
+Requires 1 Unit of Flour, 2 Units of Fruit and 1 Unit of Sweetener.
+Health: +40 | Hunger: +25 | Sanity: +5
+
+Pickled Herring
+Requires 1 Unit of Fish and 2 Units of Spot Spice. Can't have Flour.
+Health: +40 | Hunger: +37.5 | Sanity: 0
+
+Polish Cookies
+Requires 1 Unit of Flour, 1 Unit of Dairy and 2 Units of Sweetener.
+Health: +40 | Hunger: +12.5 | Sanity: +5
+
+Pumpkin Pie
+Requires 1 Unit of Pumpkin, 1 Unit of Flour and 1 Unit of Sweetener.
+Health: +20 | Hunger: +62.5 | Sanity: +10
+
+Roasted Turkey
+Requires 1 Unit of Drumstick, 2 Units of Spot Spice and 1 Unit of Succulent.
+Health: +10 | Hunger: +80 | Sanity: +20
+
+Stuffing
+Requires 1 Unit of Flour, 2 Units of Veggie and 1 Unit of Fruit.
+Health: +15 | Hunger: +32.5 | Sanity: +20
+
+Sweet Potato Casserole
+Requires 1 Unit of Flour and 2 Units of Sweet Potato. Can't have Meat.
+Health: +20 | Hunger: +37.5 | Sanity: +20
+
+Tamales
+Requires 1 Unit of Flour, 2 Units of Corn and 1 Unit of Dairy.
+Health: +5 | Hunger: +20 | Sanity: +50
+
+Tourtiere
+Requires 1 Unit of Meat, 1 Unit of Flour, 1 Unit of Bacon Scraps and 1 Unit of Potato.
+Health: +25 | Hunger: +50 | Sanity: +15
+

@@ -1,0 +1,108 @@
+Mussel Bouillabaise
+Requires 3 Units of Mussel and 1 Unit of Veggie. Can't have Cooked Mussel.
+Health: +60 | Hunger: +37.5 | Sanity: +15
+
+Sweet Potato Soufflé
+Requires 2 Units of Sweet Potato and 2 Units of Egg. Can't have Cooked Sweet Potato.
+Health: +20 | Hunger: +50 | Sanity: +15
+
+Bubble Tea
+Requires 1 Unit of Piko, 1 Unit of Tea Leaves, 1 Unit of Sweetener and 1 Unit of Ice.
+Health: +20 | Hunger: +12.5 | Sanity: +33
+Effects: Wards off sleep.
+
+French Onion Soup
+Requires 2 Units of Onion, 3 Units of Veggie and 1 Unit of Foliage.
+Health: +40 | Hunger: +37.5 | Sanity: +5
+
+Mint Jellybeans
+Requires 1 Unit of Royal Jelly and 3 Units of Green Cap.
+Health: +2 | Hunger: 0 | Sanity +5
+Effects: Restores sanity over time and Gives 3 Units when cooked.
+
+Creamy Jellybeans
+Requires 1 Unit of Royal Jelly, 1 Unit of Butter and 1 Unit of Sweetener. Can't have Inedible or Monster Food.
+Health: +2 | Hunger: +5 | Sanity: 0
+Effects: Restores hunger over time and Gives 3 Units when cooked.
+
+Lusty Jellybeans
+Requires 2 Units of Royal Jelly, 1 Unit of Dragon Fruit and 1 Unit of Pomegranate.
+Health: +2 | Hunger: +2 | Sanity: +2
+Effects: Restores all over time and Gives 3 Units when cooked.
+
+Super Meaty Stew
+Requires 3 Units of Meat and 1 Unit of Spot Spice. Can't have more than 1 Unit of Monster Food.
+Health: +15 | Hunger: +200 | Sanity: +10
+
+Cheeseburger
+Requires 1 Unit of Bread, 1 Unit of Meat, 1 Unit of Dairy and 1 Unit of Foliage.
+Health: +50 | Hunger: +100 | Sanity: +30
+
+Pizza
+Requires 1 Unit of Meat, 1 Unit of Flour, 1 Unit of Dairy and 1 Unit of Toma Root.
+Health: +40 | Hunger: +150 | Sanity: +20
+
+Meat Wellington
+Requires 2 Units of Meat, 1 Unit of Bread and 1 Unit of Veggie. Can't have more than 1 Unit of Monster Food.
+Health: +20 | Hunger: +150 | Sanity: +10
+
+Trifle
+Requires 1 Unit of Fruit, 1 Unit of Flour and 2 Units of Dairy.
+Health: +15 | Hunger: +37.5 | Sanity: +60
+
+Sundae
+Requires 1 Unit of Berries, 1 Unit of Dairy, 1 Unit of Syrup and 1 Unit of Ice.
+Health: +20 | Hunger: +8 | Sanity: +60
+Effects: Cools the body and makes you less susceptible to Overheat.
+
+Cinnamon Roll
+Requires 1 Unit of Flour, 1 Unit of Syrup, 1 Unit of Spot Spice and 1 Unit of Butter.
+Health: +80 | Hunger: +50 | Sanity: +20
+
+Prismatic Punch
+Requires 2 Units of Syrup, 1 Unit of Milk and 1 Unit of Berries.
+Health: +60 | Hunger: +12.5 | Sanity: +60
+Effects: Cools the body.
+
+Nachos
+Requires 1 Unit of Cheese, 1 Unit of Oil, 1 Unit of Spot Spice and 1 Unit of Corn. Can't have Cooked Corn.
+Health: +40 | Hunger: +32.5 | Sanity: +10
+
+Tom Kha Soup
+Requires 1 Unit of Halved Coconut, 1 Unit of Pepper, 1 Unit of Mushroom and 1 Unit of Succulent.
+Health: +5 | Hunger: +40 | Sanity: +33
+Effects: Warms the body and makes you susceptible to Freezing.
+
+Risotto
+Requires 2 Units of Rice, 1 Unit of Champignon and 1 Unit of Dairy.
+Health: +33 | Hunger: +75 | Sanity: +25
+
+Steak Stir Fry
+Requires 1 Unit of Meat, 1 Unit of Pepper, 1 Unit of Garlic and 1 Unit of Spot Spice.
+Health: -5 | Hunger: +62.5 | Sanity: +15
+Effects: Warms the body.
+
+Glacé Thé de Maman
+Requires 1 Unit of Orange Piko, 1 Unit of Tea Leaves, 1 Unit of Sweetener and 1 Unit of Ice.
+Health: +20 | Hunger: +12.5 | Sanity: +5
+Effects: Cools the body.
+
+Thé de Maman
+Requires 1 Unit of Orange Piko, 1 Unit of Tea Leaves and 1 Unit of Sweetener. Can't have Ice.
+Health: +40 | Hunger: +25 | Sanity: +10
+Effects: Warms the body and Decreases sanity loss.
+
+The Lazy Dessert
+Requires 1 Unit of Desert Stone, 1 Unit of Rocks and 1 Unit of Sweetener.
+Health: -30 | Hunger: +12.5 | Sanity: 0
+Effects: Satisfies the monster.
+
+Lava Boiled Egg
+Requires 1 Unit of Lavae Egg, 1 Unit of Pepper and 1 Unit of Fire Nettles. Can't Have Ice.
+Health: +60 | Hunger: +100 | Sanity: +15
+Effects: Warms the body and Grants fire immunity.
+
+Tirameesu
+Requires 1 Unit of Roasted Coffee Beans, 1 Unit of Chocolate and 1 Unit of Dairy. Can't Have Coffee Beans.
+Health: +20 | Hunger: +32.5 | Sanity: +15
+Effects: Speeds the body and Dissipates moisture.
