@@ -1,0 +1,9 @@
+<div class="filters">
+  <mat-card appearance="filled">
+    <section>
+      @for (mod of mods; track mod.id) {
+        <mat-checkbox [value]="mod.id" [checked]="mod.isSelected" (change)="onModChange($event)">{{ mod.name }}</mat-checkbox>
+      }
+    </section>
+  </mat-card>
+</div>
