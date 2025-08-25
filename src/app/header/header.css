@@ -1,0 +1,17 @@
+.mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.header {
+  padding: 10px;
+  background-color: var(--mat-sys-primary-container);
+}
+
+.header-buttons {
+  padding-left: 20px;
+}
+
+#app-name {
+  font-weight: bold;
+  font-size: large;
+}
