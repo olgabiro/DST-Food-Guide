@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {Dish, DishService} from '../dish.service';
+import {CookingStation, cookingStationNames, Dish, DishService} from '../dish.service';
 import {DishComponent} from '../dish';
 import {MatGridList, MatGridTile} from '@angular/material/grid-list';
-import {MatFormField, MatLabel, MatOption, MatSelect} from '@angular/material/select';
+import {MatFormField, MatLabel, MatOption, MatSelect, MatSelectChange} from '@angular/material/select';
 import {MatInput} from '@angular/material/input';
 import {FormsModule} from '@angular/forms';
 import {MatCheckbox} from '@angular/material/checkbox';
@@ -27,22 +27,25 @@ import {MatCheckbox} from '@angular/material/checkbox';
 export class DishList implements OnInit {
 
   dishes: Dish[] = [];
+  allDishes: Dish[] = [];
   searchTerm: string = '';
   sortBy: keyof Dish = 'name';
   ascending: boolean = true;
+  selectedCookingStations: CookingStation[] = [];
 
   constructor(private readonly service: DishService) {
   }
 
   ngOnInit() {
-    this.dishes = this.service.getDishes();
+    this.allDishes = this.service.getDishes();
+    this.dishes = this.allDishes;
     this.onSortChange();
   }
 
-  onSearchChange(event: Event) {
-    this.dishes = this.service.getDishes().filter(dish =>
-      dish.name.toLowerCase().includes(this.searchTerm.toLowerCase()));
-    this.onSortChange()
+  onSearchChange() {
+    this.dishes = this.allDishes
+      .filter(dish => dish.name.toLowerCase().includes(this.searchTerm.toLowerCase()))
+      .filter(dish => this.selectedCookingStations.length === 0 ? true : this.selectedCookingStations.includes(dish.cookingStation));
   }
 
   onSortChange() {
@@ -63,4 +66,11 @@ export class DishList implements OnInit {
     this.ascending = !this.ascending;
     this.onSortChange();
   }
+
+  onCookingStationsSelected(event: MatSelectChange) {
+    this.selectedCookingStations = event.value;
+    this.onSearchChange();
+  }
+
+  protected readonly cookingStationNames = cookingStationNames;
 }

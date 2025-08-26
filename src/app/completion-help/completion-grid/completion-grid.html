@@ -15,6 +15,11 @@
     <td mat-cell *matCellDef="let dish">{{ dish.requirements }}</td>
   </ng-container>
 
+  <ng-container matColumnDef="cookingStation">
+    <th mat-header-cell *matHeaderCellDef>Cooked in</th>
+    <td mat-cell *matCellDef="let dish ">{{ getCookingStationName(dish.cookingStation) }}</td>
+  </ng-container>
+
   <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
   <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
 </table>

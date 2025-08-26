@@ -46,3 +46,10 @@ export interface Dish {
 }
 
 export type CookingStation = "crockPot" | "portableCrockPot" | "keg" | "preservesJar";
+
+export const cookingStationNames = {
+  'crockPot': 'Crock Pot',
+  'portableCrockPot': 'Portable Crock Pot',
+  'keg': 'Wooden Keg',
+  'preservesJar': 'Preserves Jar'
+}

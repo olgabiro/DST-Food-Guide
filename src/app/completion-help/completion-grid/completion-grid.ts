@@ -12,7 +12,7 @@ import {
   MatTable
 } from "@angular/material/table";
 import {MatCheckbox} from "@angular/material/checkbox";
-import {Dish} from '../../dish/dish.service';
+import {CookingStation, cookingStationNames, Dish} from '../../dish/dish.service';
 import {SelectionModel} from '@angular/cdk/collections';
 
 @Component({
@@ -35,7 +35,7 @@ import {SelectionModel} from '@angular/cdk/collections';
 })
 export class CompletionGrid implements OnInit {
   dishes = input.required<Dish[]>();
-  columnsToDisplay = ['select', 'name', 'requirements'];
+  columnsToDisplay = ['select', 'name', 'cookingStation', 'requirements'];
   selection = new SelectionModel<Dish>(true, []);
 
   ngOnInit() {
@@ -51,5 +51,9 @@ export class CompletionGrid implements OnInit {
     } else {
       localStorage.removeItem(dish.name);
     }
+  }
+
+  getCookingStationName(name: string): string {
+    return cookingStationNames[name as CookingStation] || name;
   }
 }

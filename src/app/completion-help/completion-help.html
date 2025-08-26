@@ -4,7 +4,16 @@
   <div class="filtering">
     <mat-form-field>
       <mat-label>Search</mat-label>
-      <input matInput placeholder="Ex: Meat" [(ngModel)]="filterText" (change)="onSearchChange()"/>
+      <input matInput placeholder="Ex: Meat" [(ngModel)]="filterText" (ngModelChange)="onSearchChange()"/>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Cooking Station</mat-label>
+      <mat-select multiple (selectionChange)="onCookingStationsSelected($event)">
+        <mat-option value="crockPot" >{{ cookingStationNames["crockPot"] }}</mat-option>
+        <mat-option value="portableCrockPot" >{{ cookingStationNames["portableCrockPot"] }}</mat-option>
+        <mat-option value="keg" >{{ cookingStationNames["keg"] }}</mat-option>
+        <mat-option value="preservesJar" >{{ cookingStationNames["preservesJar"] }}</mat-option>
+      </mat-select>
     </mat-form-field>
     <mat-checkbox [checked]="hideSelected" (change)="onHideSelectedChange()">Hide completed</mat-checkbox>
   </div>

@@ -1,7 +1,7 @@
 <div class="filters">
   <mat-form-field>
     <mat-label>Search</mat-label>
-    <input matInput placeholder="Ex. Pizza" [(ngModel)]="searchTerm" (ngModelChange)="onSearchChange($event)">
+    <input matInput placeholder="Ex. Pizza" [(ngModel)]="searchTerm" (ngModelChange)="onSearchChange()">
   </mat-form-field>
 
   <mat-form-field>
@@ -14,6 +14,15 @@
     </mat-select>
   </mat-form-field>
   <mat-checkbox [checked]="ascending" (change)="onAscendingChange()">Ascending</mat-checkbox>
+  <mat-form-field>
+    <mat-label>Cooking Station</mat-label>
+    <mat-select multiple (selectionChange)="onCookingStationsSelected($event)">
+      <mat-option value="crockPot" >{{ cookingStationNames["crockPot"] }}</mat-option>
+      <mat-option value="portableCrockPot" >{{ cookingStationNames["portableCrockPot"] }}</mat-option>
+      <mat-option value="keg" >{{ cookingStationNames["keg"] }}</mat-option>
+      <mat-option value="preservesJar" >{{ cookingStationNames["preservesJar"] }}</mat-option>
+    </mat-select>
+  </mat-form-field>
 </div>
 <mat-grid-list cols="6">
   @for (dish of dishes; track dish.name) {
