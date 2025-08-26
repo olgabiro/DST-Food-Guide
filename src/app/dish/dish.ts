@@ -14,4 +14,11 @@ import {MatCard, MatCardContent, MatCardHeader} from '@angular/material/card';
 })
 export class DishComponent {
   dish = input.required<Dish>();
+
+  cookingStationNames = {
+    'crockPot': 'Crock Pot',
+    'portableCrockPot': 'Portable Crock Pot',
+    'keg': 'Wooden Keg',
+    'preservesJar': 'Preserves Jar'
+  }
 }

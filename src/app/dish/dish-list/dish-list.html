@@ -15,7 +15,7 @@
   </mat-form-field>
   <mat-checkbox [checked]="ascending" (change)="onAscendingChange()">Ascending</mat-checkbox>
 </div>
-<mat-grid-list cols="8" rowHeight="2:3">
+<mat-grid-list cols="6">
   @for (dish of dishes; track dish.name) {
     <mat-grid-tile>
       <app-dish [dish]="dish"/>

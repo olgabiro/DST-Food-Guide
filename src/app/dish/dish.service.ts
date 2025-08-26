@@ -42,4 +42,7 @@ export interface Dish {
   cookingTime?: number;
   requirements?: string;
   effects?: string;
+  cookingStation: CookingStation;
 }
+
+export type CookingStation = "crockPot" | "portableCrockPot" | "keg" | "preservesJar";
