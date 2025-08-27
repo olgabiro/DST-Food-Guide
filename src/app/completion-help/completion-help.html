@@ -9,15 +9,21 @@
     <mat-form-field>
       <mat-label>Cooking Station</mat-label>
       <mat-select multiple (selectionChange)="onCookingStationsSelected($event)">
-        <mat-option value="crockPot" >{{ cookingStationNames["crockPot"] }}</mat-option>
-        <mat-option value="portableCrockPot" >{{ cookingStationNames["portableCrockPot"] }}</mat-option>
-        <mat-option value="keg" >{{ cookingStationNames["keg"] }}</mat-option>
-        <mat-option value="preservesJar" >{{ cookingStationNames["preservesJar"] }}</mat-option>
+        <mat-option value="crockPot">{{ cookingStationNames["crockPot"] }}</mat-option>
+        <mat-option value="portableCrockPot">{{ cookingStationNames["portableCrockPot"] }}</mat-option>
+        <mat-option value="keg">{{ cookingStationNames["keg"] }}</mat-option>
+        <mat-option value="preservesJar">{{ cookingStationNames["preservesJar"] }}</mat-option>
       </mat-select>
     </mat-form-field>
-    <mat-checkbox [checked]="hideSelected" (change)="onHideSelectedChange()">Hide completed</mat-checkbox>
+    <mat-checkbox [checked]="hideCompleted" (change)="onHideCompletedChange()">Hide completed</mat-checkbox>
+    <div class="completion-stats">
+      <h3>
+        Completed {{ completedCount }} / {{ allDishes.length }} ({{ completedCount / allDishes.length | percent }})
+      </h3>
+    </div>
   </div>
   <div>
-    <app-completion-grid [dishes]="dishes()"/>
+    <app-completion-grid [dishes]="dishes()" (completeDish)="onCompletedDish($event)"
+                         (uncompleteDish)="onUncompletedDish($event)"/>
   </div>
 </div>

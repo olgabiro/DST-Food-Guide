@@ -7,6 +7,7 @@ import {MatCheckbox} from '@angular/material/checkbox';
 import {CookingStation, cookingStationNames, Dish, DishService} from '../dish/dish.service';
 import {ModFilter, ModName} from '../mod-filter/mod-filter';
 import {MatOption, MatSelect, MatSelectChange} from '@angular/material/select';
+import {PercentPipe} from '@angular/common';
 
 @Component({
   selector: 'app-completion-help',
@@ -19,26 +20,28 @@ import {MatOption, MatSelect, MatSelectChange} from '@angular/material/select';
     MatCheckbox,
     ModFilter,
     MatSelect,
-    MatOption
+    MatOption,
+    PercentPipe
   ],
   templateUrl: './completion-help.html',
   styleUrl: './completion-help.css'
 })
 export class CompletionHelp {
   filterText: string = "";
-  hideSelected: boolean = false;
-  allDishes: Dish[] = [];
+  hideCompleted: boolean = false;
+  allDishes: CollectibleDish[] = [];
+  completedCount = 0;
   selectedMods: ModName[] = ["HOF-general", "HOF-gorge", "HOF-hamlet", "HOF-shipwrecked"];
   selectedCookingStations: CookingStation[] = [];
-  dishes = signal<Dish[]>([]);
+  dishes = signal<CollectibleDish[]>([]);
 
   constructor(private readonly dishesService: DishService) {
     this.loadDishes();
     this.dishes.set(this.allDishes);
   }
 
-  onHideSelectedChange() {
-    this.hideSelected = !this.hideSelected;
+  onHideCompletedChange() {
+    this.hideCompleted = !this.hideCompleted;
     this.updateDishes();
   }
 
@@ -51,13 +54,15 @@ export class CompletionHelp {
     this.dishes.set(this.allDishes
       .filter(dish => dish.name.toLowerCase().includes(filter) || dish.requirements?.toLowerCase().includes(filter))
       .filter(dish => this.selectedCookingStations.length === 0 ? true : this.selectedCookingStations.includes(dish.cookingStation))
-      .filter(dish => this.hideSelected ? localStorage.getItem(dish.name) === null : true)
+      .filter(dish => this.hideCompleted ? !dish.completed : true)
     );
   }
 
   private loadDishes() {
     this.allDishes = this.dishesService.getDishes(this.selectedMods)
+      .map(dish => this.dishToCollectibleDish(dish))
       .sort((a, b) => a.name.localeCompare(b.name));
+    this.completedCount = this.allDishes.filter(dish => dish.completed).length
   }
 
   onModsSelected(mods: ModName[]) {
@@ -71,5 +76,33 @@ export class CompletionHelp {
     this.updateDishes();
   }
 
+  onCompletedDish(dish: CollectibleDish) {
+    let dishName = dish.name;
+    localStorage.setItem(dishName, "completed");
+    dish.completed = true;
+    this.completedCount++;
+    this.updateDishes();
+  }
+
+  onUncompletedDish(dish: CollectibleDish) {
+    let dishName = dish.name;
+    localStorage.removeItem(dishName);
+    dish.completed = false;
+    this.completedCount--;
+    this.updateDishes();
+  }
+
   protected readonly cookingStationNames = cookingStationNames;
+
+  dishToCollectibleDish(dish: Dish): CollectibleDish {
+    return {
+      ...dish,
+      completed: localStorage.getItem(dish.name) !== null
+    };
+  }
+}
+
+
+export interface CollectibleDish extends Dish {
+  completed: boolean
 }
