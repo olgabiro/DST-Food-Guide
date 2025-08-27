@@ -1,4 +1,4 @@
-import {Component, input, OnInit, output} from '@angular/core';
+import {Component, input, output} from '@angular/core';
 import {
   MatCell,
   MatCellDef,
@@ -12,8 +12,7 @@ import {
   MatTable
 } from "@angular/material/table";
 import {MatCheckbox} from "@angular/material/checkbox";
-import {CookingStation, cookingStationNames, Dish} from '../../dish/dish.service';
-import {SelectionModel} from '@angular/cdk/collections';
+import {CookingStation, cookingStationNames} from '../../dish/dish.service';
 import {CollectibleDish} from '../completion-help';
 
 @Component({
@@ -34,22 +33,14 @@ import {CollectibleDish} from '../completion-help';
   templateUrl: './completion-grid.html',
   styleUrl: './completion-grid.css'
 })
-export class CompletionGrid implements OnInit {
+export class CompletionGrid {
   dishes = input.required<CollectibleDish[]>();
   columnsToDisplay = ['select', 'name', 'cookingStation', 'requirements'];
-  selection = new SelectionModel<Dish>(true, []);
   completeDish = output<CollectibleDish>()
   uncompleteDish = output<CollectibleDish>()
 
-  ngOnInit() {
-    this.dishes()
-      .filter(dish => dish.completed)
-      .forEach(dish => this.selection.select(dish));
-  }
-
   onSelectDish(dish: CollectibleDish) {
-    this.selection.toggle(dish);
-    if (this.selection.isSelected(dish)) {
+    if (!dish.completed) {
       this.completeDish.emit(dish);
     } else {
       this.uncompleteDish.emit(dish);

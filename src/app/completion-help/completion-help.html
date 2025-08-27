@@ -20,6 +20,7 @@
       <h3>
         Completed {{ completedCount }} / {{ allDishes.length }} ({{ completedCount / allDishes.length | percent }})
       </h3>
+      <button matButton="outlined" (click)="clearProgress()">Clear progress</button>
     </div>
   </div>
   <div>

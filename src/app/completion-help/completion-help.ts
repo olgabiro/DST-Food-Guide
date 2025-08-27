@@ -8,6 +8,7 @@ import {CookingStation, cookingStationNames, Dish, DishService} from '../dish/di
 import {ModFilter, ModName} from '../mod-filter/mod-filter';
 import {MatOption, MatSelect, MatSelectChange} from '@angular/material/select';
 import {PercentPipe} from '@angular/common';
+import {MatButton} from '@angular/material/button';
 
 @Component({
   selector: 'app-completion-help',
@@ -21,7 +22,8 @@ import {PercentPipe} from '@angular/common';
     ModFilter,
     MatSelect,
     MatOption,
-    PercentPipe
+    PercentPipe,
+    MatButton
   ],
   templateUrl: './completion-help.html',
   styleUrl: './completion-help.css'
@@ -34,6 +36,8 @@ export class CompletionHelp {
   selectedMods: ModName[] = ["HOF-general", "HOF-gorge", "HOF-hamlet", "HOF-shipwrecked"];
   selectedCookingStations: CookingStation[] = [];
   dishes = signal<CollectibleDish[]>([]);
+
+  protected readonly cookingStationNames = cookingStationNames;
 
   constructor(private readonly dishesService: DishService) {
     this.loadDishes();
@@ -60,7 +64,10 @@ export class CompletionHelp {
 
   private loadDishes() {
     this.allDishes = this.dishesService.getDishes(this.selectedMods)
-      .map(dish => this.dishToCollectibleDish(dish))
+      .map(dish => ({
+        ...(dish),
+        completed: localStorage.getItem(dish.name) !== null
+      }))
       .sort((a, b) => a.name.localeCompare(b.name));
     this.completedCount = this.allDishes.filter(dish => dish.completed).length
   }
@@ -92,16 +99,15 @@ export class CompletionHelp {
     this.updateDishes();
   }
 
-  protected readonly cookingStationNames = cookingStationNames;
-
-  dishToCollectibleDish(dish: Dish): CollectibleDish {
-    return {
-      ...dish,
-      completed: localStorage.getItem(dish.name) !== null
-    };
+  clearProgress() {
+    this.allDishes.forEach(dish => {
+      dish.completed = false
+      localStorage.removeItem(dish.name);
+    });
+    this.completedCount = 0;
+    this.updateDishes();
   }
 }
-
 
 export interface CollectibleDish extends Dish {
   completed: boolean
