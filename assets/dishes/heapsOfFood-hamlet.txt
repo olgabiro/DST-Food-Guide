@@ -1,0 +1,40 @@
+Feijoada
+Requires 3 Units of Bean Bugs and 1 Unit of Meat.
+Health: +20 | Hunger: +75 | Sanity: +15
+
+Gummy Cake
+Requires 1 Unit of Gummy Slug and 1 Unit of Sweetener.
+Health: -3 | Hunger: +150 | Sanity: -5
+
+Hard Shell Tacos
+Requires 2 Units of Broken Shell and 1 Unit of Veggie.
+Health: +20 | Hunger: +37.5 | Sanity: +5
+
+Iced Tea
+Requires 2 Units of Tea Leaves, 1 Unit of Sweetener and 1 Unit of Ice.
+Health: +25 | Hunger: +12.5 | Sanity: +33
+Effects: Cools the body.
+
+Tea
+Requires 2 Units of Tea Leaves and 1 Unit of Sweetener. Can't have Ice.
+Health: +25 | Hunger: +12.5 | Sanity: +33
+Effects: Warms the body.
+
+Fire Nettle Rolls
+Requires 1 Unit of Fire Nettle Fronds. Can't have Meat.
+Health: +20 | Hunger +25 | Sanity -10
+Effects: Warms the body.
+
+Meated Fire Nettle
+Requires 2 Units of Fire Nettle Fronds and 1 Unit of Meat. Can't have more than 1 Unit of Monster Food or Inedible.
+Health: +20 | Hunger: +37.5 | Sanity: -5
+Effects: Warms the body.
+
+Worm Bone Soup
+Requires 2 Units of Worm Bone and 2 Units of Meat.
+Health: +40 | Hunger: +80 | Sanity +20
+Effects: Increased damage to worms.
+
+Steamed Ham Sandwich
+Requires 2 Units of Meat, 1 Unit of Foliage and 1 Unit of Veggie.
+Health: +30 | Hunger: +62.5 | Sanity +15

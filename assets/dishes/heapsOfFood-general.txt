@@ -1,0 +1,431 @@
+Slaw
+Requires 2 Units of Fennel and 1 Unit of Radish.
+Health: +20 | Hunger: +25 | Sanity: +10
+
+Lotus Chips
+Requires 3 Units of Lotus Flower.
+Health: +8 | Hunger: +12.5 | Sanity: +50
+
+Poi
+Requires 3 Units of Taro Root. Can't have Inedible.
+Health: +30 | Hunger: +62.5 | Sanity: +10
+
+Cucumber Salad
+Requires 3 Unit of Sea Cucumber and 1 Unit of Veggie. Can't have Taro Root.
+Health: +10 | Hunger: +25 | Sanity: +15
+Effects: Dissipates moisture.
+
+Watercress Soup
+Requires 2 Units of Watercress, 1 Unit of Succulent and 3 Unit of Veggie.
+Effects: Cools the body.
+Health: +20 | Hunger: +37.5 | Sanity: +5
+
+Symphony of the Gears
+Requires 2 Units of Gears and 2 Units of Scrap.
+Health: +135 | Hunger: +150 | Sanity: +150
+Effects: Only WX-78 Can eat this food.
+
+Deadly Feast
+Requires 3 Unit of Long Pig and 1 Unit of Bone Shards.
+Health: -100 | Hunger: +150 | Sanity: -300
+Effects: Hurts the body.
+
+Tigela di' Merde
+Requires 1 Unit of Manure, 1 Unit of Guano, 1 Unit of Glommer's Goop and 1 Unit of Salt.
+Health: 0 | Hunger: 0 | Sanity: 0
+
+Kitty Snack
+Requires 1 Unit of Fish, 1 Unit of Flour and 2 Units of Spot Spice.
+Health: +20 | Hunger: +25 | Sanity: +15
+
+Kitty Kat Snack
+Requires 1 Unit of Dairy, 1 Unit of Syrup and 2 Units of Flour.
+Health: +60 | Hunger: +15 | Sanity: +15
+
+Bowl of Popcorn
+Requires 3 Units of Corn and 1 Unit of Salt. Can't have Popcorn (Cooked Corn).
+Health: +5 | Hunger: +75 | Sanity: +33
+
+Fig Juice
+Requires 1 Unit of Fig and 2 Units of Ice. Can't have Meat, Fish or Inedible.
+Health: 0 | Hunger: +15 | Sanity: +50
+Effects: Cools the body.
+
+Coconut Water
+Requires 1 Unit of Halved Coconut, 2 Units of Ice and 1 Unit of Twigs.
+Health: +20 | Hunger: 0 | Sanity: 0
+Effects: Cools the body.
+
+Eyespaghetti
+Requires 1 Unit of Deerclops Eyeball, 1 Unit of Toma Root and 1 Unit of Flour.
+Health: +150 | Hunger: +150 | Sanity: -150
+Effects: Calls the monster. (Configurable).
+
+Soul Stew
+Requires 1 Unit of Soul in a Bottle and 2 Units of Bone Shards.
+Health: +10 | Hunger: +62.5 | Sanity: -10
+Effects: Only Wortox can eat this food and Soul-starve killer.
+
+Fortune Cookie
+Requires 1 Unit of Flour, 1 Unit of Sweetener and 1 Unit of Papyrus.
+Health: +3 | Hunger: +20 | Sanity: +5
+Effects: Tells your fortune.
+
+Cornocupia
+Requires 1 Unit of Meat, 1 Unit of Veggie, 1 Unit of Fruit and 1 Unit of Beefalo Horn.
+Health: +12 | Hunger: +75 | Sanity: +25
+Effects: Everyone can eat and Breaks after eating.
+
+Milk Box
+Requires 2 Units of Ice and 2 Units of Milk. Can't have Milk Box.
+Health: +25 | Hunger: 0 | Sanity: +5
+Effects: Is a Crock Pot ingredient.
+
+Honey Jar
+Requires 1 Unit of Honeycomb and 3 Units of Honey.
+Health: +30 | Hunger: +45 | Sanity: +5
+
+Cup of Water
+Requires 2 Units of Ice. Can't have more than 2 Units of Ice.
+Health: +1 | Hunger: +1 | Sanity: +1
+Effects: Cleans the body.
+
+Crab Artichoke
+Requires 2 Units of Crab Meat, 1 Unit of Kelp or Seaweed or Watercress and 1 Unit of Spot Spice. Can't have Cooked Kelp, Dried Kelp, Cooked Seaweed and Dried Seaweed.
+Health: +40 | Hunger: +12.5 | Sanity: +60
+
+Cheese
+Requires 2 Units of Milk and 1 Unit of Spot Spice. Can't have Meat, Garlic and Koalefant Milk.
+Health: +10 | Hunger: +25 | Sanity: +5
+
+White Cheese
+Requires 2 Units of Milk, 1 Unit of Spot Spice and 1 Unit of Garlic. Can't have Meat.
+Health: +15 | Hunger: +25 | Sanity: +20
+
+Koalefant Cheese
+Requires 2 Units of Koalefant Milk and 1 Unit of Spot Spice. Can't have Meat, Garlic, Beefalo Milk and Electric Milk.
+Health: +20 | Hunger: +25 | Sanity: +5
+
+Noxious Froggle Bunwich
+Requires 1 Unit of Poison Frog Legs and 1 Unit of Veggie. Can't have Frog Legs.
+Health: -20 | Hunger: +62.5 | Sanity: +10
+Effects: Gives off a frog arom.
+
+Pepper Rolls
+Requires 2 Units of Pepper, 1 Unit of Flour and 1 Unit of Spot Spice.
+Health: +40 | Hunger: +32.5 | Sanity: -15
+Effects: Warms the body.
+
+Chocolate
+Requires 2 Units of Nuts, 1 Unit of Milk and 1 Unit of Sugar.
+Health: -5 | Hunger: +12.5 | Sanity: +33
+
+White Chocolate
+Requires 2 Units of Nuts, 1 Unit of Beefalo Milk and 1 Unit of Sugar.
+Health: -5 | Hunger: +33 | Sanity: +12.5
+
+Tricolor Dango
+Requires 1 Unit of Milk, 1 Unit of Sugar, 1 Unit of Flour and 1 Unit of Twigs.
+Health: +30 | Hunger: +12.5 | Sanity: +5
+
+French Fries
+Requires 2 Units of Potato, 1 Unit of Oil and 1 Unit of Salt.
+Health: +30 | Hunger: +32.5 | Sanity: +10
+
+Onion Rings
+Requires 2 Units of Onion, 1 Unit of Flour and 1 Unit of Oil.
+Health: +15 | Hunger: +25 | Sanity: +20
+
+Donuts
+Requires 2 Units of Flour, 1 Unit of Oil and 1 Unit of Sugar.
+Health: -3 | Hunger: +50 | Sanity: +10
+
+Chocolate Donuts
+Requires 1 Unit of Chocolate, 1 Unit of Oil, 1 Unit of Flour and 1 Unit of Sugar.
+Health: -5 | Hunger: +55 | Sanity: +40
+
+White Chocolate Donuts
+Requires 1 Unit of White Chocolate, 1 Unit of Oil, 1 Unit of Flour and 1 Unit of Sugar.
+Health: -5 | Hunger: +75 | Sanity: +15
+
+Gummy Beargers
+Requires 1 Unit of Thick Fur, 1 Unit of Gummy Slug and 2 Units of Sweetener.
+Health: +5 | Hunger: +30 | Sanity: -5
+Effects: Calls the monster. (Configurable).
+
+Pretzel
+Requires 1 Unit of Butter, 1 Unit of Salt and 2 Units of Flour.
+Health: +40 | Hunger: +60 | Sanity: +15
+
+Elote en Vaso
+Requires 1 Unit of Corn, 1 Unit of Pepper, 1 Unit of Salt and 1 Unit of Butter or Cheese.
+Health: +50 | Hunger: +50 | Sanity: +50
+Effects: Warms the body.
+
+Cotton Candy
+Requires 3 Units of Sugar and 1 Unit of Twigs.
+Health: -5 | Hunger: +12.5 | Sanity: +33
+
+Roasted Hazelnuts
+Requires 2 Units of Nuts and 2 Units of Birchnuts.
+Health: +10 | Hunger: +25 | Sanity: +10
+
+Monster Muffin
+Requires 2 Units of Honey, 1 Unit of Flour and 1 Unit of Nightmare Fuel.
+Health: -10 | Hunger: +50 | Sanity: -15
+
+Pink Cake
+Requires 2 Units of Sugar, 1 Unit of Flour and 1 Unit of Egg.
+Health: +5 | Hunger: +62.5 | Sanity: +20
+
+Potato Chips
+Requires 2 Units of Potato, 1 Unit of Oil and 1 Unit of Spot Spice.
+Health: +40 | Hunger: +62.5 | Sanity: +5
+
+Bread
+Requires 3 Units of Flour and 1 Unit of Spot Spice.
+Health: 0 | Hunger: +12.5 | Sanity: +5
+Effects: Gives 3 Units when cooked and Is a Crock Pot ingredient.
+
+Hot Hound
+Requires 1 Unit of Bread, 1 Unit of Meat, 1 Unit of Toma Root and 1 Unit of Spot Spice.
+Health: +60 | Hunger: +32.5 | Sanity: +10
+
+Milkshake
+Requires 2 Units of Honey, 1 Unit of Milk and 1 Unit of Berries.
+Health: +30 | Hunger: +12.5 | Sanity: +30
+Effects: Cools the body.
+
+Banana Pudding
+Requires 2 Units of Banana, 1 Unit of Milk and 1 Unit of Sweetener.
+Health: +20 | Hunger: +12.5 | Sanity: +50
+
+Seafoam Pudding
+Requires 1 Unit of Eel, 1 Unit of Mussel, 1 Unit of Purple Grouper and 1 Unit of Algae.
+Health: +60 | Hunger: +150 | Sanity: +5
+Effects: Increases fishing yields.
+
+Lollipop
+Requires 2 Units of Sweetener, 1 Unit of Fruit and 1 Unit of Twigs.
+Health: -3 | Hunger: +12.5 | Sanity: +15
+
+Radish Salad
+Requires 3 Units of Radish and 1 Unit of Spot Spice.
+Health: +15 | Hunger: 62.5 | Sanity: +5
+
+Pumpkin Soup
+Requires 2 Units of Pumpkin, 1 Unit of Butter and 1 Unit of Spot Spice.
+Health: +40 | Hunger: +100 | Sanity: +33
+
+Algae Soup
+Requires 3 Units of Algae. Can't have Meat and Fish.
+Health: +10 | Hunger: +75 | Sanity: +25
+
+Parsnip Soup
+Requires 3 Units of Parsnip and 1 Unit of Succulent.
+Health: +15 | Hunger: +32.5 | Sanity: +5
+Effects: Speeds digestion.
+
+Living Sandwich
+Requires 2 Units of Living Log and 2 Units of Monster Meat.
+Health: +10 | Hunger: +40 | Sanity: -5
+Effects: Stimulates the curse.
+
+Moon Shroom Sofrito
+Requires 1 Unit of Carrot, 1 Unit of Moon Shroom and 2 Units of Ripe Stone Fruit.
+Health: +25 | Hunger: +18.75 | Sanity: 0
+Effects: Wards off fear and sleep.
+
+Lavender Wobster Soup
+Requires 1 Unit of Wobster, 1 Unit of Purple Grouper and 1 Unit of Turnip.
+Health: -60 | Hunger: +62.5 | Sanity: -5
+
+Wobster Monster
+Requires 1 Unit of Wobster, 1 Unit of Monster Meat and 2 Units of Veggie.
+Health: -60 | Hunger: +37.5 | Sanity: -20
+Effects: Warms the body.
+
+Durian Split
+Requires 1 Unit of Durian, 1 Unit of Banana, 1 Unit of Ice and 1 Unit of Fruit.
+Health: -5 | Hunger: +32.5 | Sanity: -15
+Effects: Cools the body.
+
+Durian Soup
+Requires 1 Unit of Durian and 3 Units of Veggie.
+Health: -15 | Hunger: +37.5 | Sanity: 0
+Effects: Warms the body.
+
+Meated Durians
+Requires 2 Units of Monster Meat and 2 Units of Durians[/b]
+Health: -20 | Hunger: +37.5 | Sanity: -5
+
+Turkey Durian
+Requires 1 Unit of Durian, 1 Unit of Cactus Flower and 2 Units of Cactus Flesh. Can't have Extra Smelly Durian and Cooked Cactus Flesh.
+Health: -10 | Hunger: +45 | Sanity: -30
+
+Arachnid Gateau
+Requires 1 Unit of Spider, 1 Unit of Monster Meat, 1 Unit of Egg and 1 Unit of Flour.
+Health: -20 | Hunger: +37.5 | Sanity -20
+
+Sugar Bombs
+Requires 2 Units of Sugar and 2 Units of Wheat.
+Health: +5 | Hunger: +20 | Sanity: +15
+
+Berries Basket
+Requires 2 Units of Berries and 1 Unit of Twigs.
+Health: +12 | Hunger: +18.25 | Sanity: +5
+
+Onigiris
+Requires 2 Units of Rice, 1 Unit of Spot Spice and 1 Unit of Algae.
+Health: +8 | Hunger: +20 | Sanity: +8
+Effects: Gives 2 Units when cooked.
+
+Omurice
+Requires 2 Units of Rice, 1 Unit of Egg and 1 Unit of Toma Root.
+Health: +30 | Hunger: +32.5 | Sanity: +10
+
+Paella
+Requires 1 Unit of Rice, 1 Unit of Mussel, 1 Unit of Spot Spice and 1 Unit of Fish.
+Health: +20 | Hunger: +50 | Sanity: +10
+Effects: Warms the body.
+
+Tropical Pizza
+Requires 1 Unit of Fish, 1 Unit of Flour, 1 Unit of Dairy and 1 Unit of Halved Pineapple or Hot Pineapple.
+Health: +60 | Hunger: +75 | Sanity: +15
+
+Piña Colada
+Requires 1 Unit of Halved Pineapple, 1 Unit of Sweetener and 1 Unit of Ice. Can't have Hot Pineapple.
+Health: +25 | Hunger: +25 | Sanity: +10
+Effects: Cools the body.
+
+Mate
+Requires 2 Units of Tillweed and 1 Unit of Ice.
+Health: +5 | Hunger: +12.5 | Sanity: +10
+Effects: Warms the body.
+
+Gummy Worms
+Requires 1 Unit of Nightberry, 1 Unit of Gummy Slug and 1 Unit of Sugar.
+Health: +10 | Hunger: +25 | Sanity: -5
+Effects: Grants night vision.
+
+S'mores
+Requires 1 Unit of Flour, 1 Unit of Chocolate and 2 Units of Sugar.
+Health: +15 | Hunger: +65 | Sanity: +65
+
+Ants On a Living Log
+Requires 1 Unit of Living Log, 1 Unit of Fig and 2 Units of Nuts.
+Health: +15 | Hunger: +25 | Sanity: +15
+
+Moon Muffin
+Requires 1 Unit of Moon Moth and 0.5 Unit of Veggie. Can't have Meat.
+Health: +5 | Hunger: +37.5 | Sanity: +20
+
+Sugar Muffin
+Requires 1 Unit of Sugarfly and 0.5 Unit of Veggie. Can't have Meat.
+Health: +20 | Hunger: +18.75 | Sanity: +20
+
+Eel Tacos
+Requires 1 Unit of Eel, 1 Unit of Corn and 1 Unit of Lichen.
+Health: +5 | Hunger: +37.5 | Sanity: +20
+
+Meat-Toast Waltz
+Requires 1 Unit of Bread, 1 Unit of Meat, 1 Unit of Toma Root and 1 Unit of Onion.
+Health: +30 | Hunger: +37.5 | Sanity: +5
+Effects: Slightly boosts inspiration.
+
+Complete Breakfast
+Requires 1 Unit of Bacon and Eggs, 1 Unit of Flour, 1 Unit of Butter and 1 Unit of Syrup.
+Health: +60 | Hunger: +150 | Sanity: +5
+Effects: Slightly boosts mightness.
+
+Dumplings
+Requires 0.5 Unit of Meat, 1 Unit of Flour, 1 Unit of Oil and 1 Unit of Veggie. Can't have 1 or more Units of Meat.
+Health: +15 | Hunger: +25 | Sanity: +10
+
+Chicken Croquet
+Requires 1 Unit of Drumstick, 1 Unit of Flour, 1 Unit of Oil and 1 Unit of Spot Spice.
+Health: +15 | Hunger: +32.5 | Sanity: 0
+
+Crab King Boil
+Requires 1 Unit of Crab King Meat, 1 Unit of Corn, 1 Unit of Onion and 1 Unit of Spot Spice. Can't Have Cooked Corn.
+Health: +40 | Hunger: +62.5 | Sanity: +33
+Effects: Increased damage to crabs.
+
+Pie-Napple
+Requires 1 Unit of Halved Pineapple. Can't Have Meat.
+Health: +40 | Hunger: +25 | Sanity: +5
+
+Avocado Toast
+Requires 2 Units of Ripe Stone Fruit and 1 Unit of Bread.
+Health: +5 | Hunger: +37.5 | Sanity: +5
+
+Rice Pudding
+Requires 2 Units of Rice, 1 Unit of Dairy and 1 Unit of Spot Spice.
+Health: +5 | Hunger: +15 | Sanity: +33
+
+Shark Nigiri
+Requires 1 Unit of Shark Fin and 2 Units of Rice.
+Health: +20 | Hunger: +40 | Sanity: -10
+Effects: Increases naughtiness.
+
+Breaded Wobster
+Requires 1 Unit of Wobster, 1 Unit of Spot Spice, 1 Unit of Flour and 1 Unit of Oil.
+Health: +60 | Hunger: +50 | Sanity: +10
+
+Purrito
+Requires 1 Unit of Bean Bugs, 1 Unit of Rice and 1 Unit of Flour.
+Health: +20 | Hunger: +62.5 | Sanity: -15
+
+Horchata
+Requires 1 Unit of Rice, 1 Unit of Dairy, 1 Unit of Sweetener and 1 Unit of Ice.
+Health: +40 | Hunger: +20 | Sanity: +5
+Effects: Cools the body.
+
+Wobster Cocktail
+Requires 1 Unit of Wobster, 1 Unit of Toma Root, 1 Unit of Pepper. Can't Have Inedible.
+Health: +20 | Hunger: +32.5 | Sanity: +60
+Effects: Warms the body.
+
+Bubblegranate
+Requires 1 Unit of Pomegranate, 1 Unit of Sweetener and 1 Unit of Ice.
+Health: +25 | Hunger: +12.5 | Sanity: +10
+Effects: Cools the body.
+
+Piegranate
+Requires 1 Unit of Pomegranate, 1 Unit of Flour and 1 Unit of Sweetener.
+Health: +40 | Hunger: +32.5 | Sanity: +20
+
+Pineapple Cake
+Requires 1 Unit of Halved Pineapple, 1 Unit of Egg, 1 Unit of Flour and 1 Unit of Sweetener.
+Health: +20 | Hunger: +25 | Sanity: +40
+
+Meat Pasty
+Requires 1 Unit of Meat, 1 Unit of Flour, 1 Unit of Veggie and 1 Unit of Oil. Can't Have Wobster and can't have less than 1 Unit of Meat.
+Health: +20 | Hunger: +62.5 | Sanity: +5
+
+Cheese Pasty
+Requires 1 Unit of Cheese, 1 Unit of Flour, 1 Unit of Spot Spice and 1 Unit of Oil.
+Health: +40 | Hunger: +37.5 | Sanity: +33
+
+Brigadier
+Requires 1 Unit of Chocolate, 1 Unit of Sugar and 1 Unit of Nuts.
+Health: +25 | Hunger: +32.5 | Sanity: +50
+
+Lasagna
+Requires 1 Unit of Meat, 1 Unit of Toma Root and 1 Unit of Flour. Can't Have Wobster, Monster Food or Spot Spice.
+Health: +30 | Hunger: +37.5 | Sanity: +30
+
+FLT
+Requires 1 Unit of Bright Frog Legs, 1 Unit of Toma Root, 1 Unit of Algae and 1 Unit of Foliage.
+Health: +15 | Hunger: +32.5 | Sanity: +33
+Effects: Increases planar defense
+
+Rice and Beans
+Requires 2 Units of Bean Bugs and 1 Unit of Rice.
+Health: +5 | Hunger: +62.5 | Sanity: +20
+Effects: Warms the body.
+
+Jawsbreaker
+Requires 2 Units of Sweetener, 1 Unit of Shark Fin and 1 Unit of Sugar.
+Health: -30 | Hunger: +12.5 | Sanity: +33
+Effects: Allures ocean creatures.

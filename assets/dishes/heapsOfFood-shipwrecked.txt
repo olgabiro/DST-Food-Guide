@@ -1,0 +1,27 @@
+Coffee
+Requires 3-4 Units of Cooked Coffee Beans and 1 Unit of Dairy, Sweetener or Sugar. Can't have Raw Coffee Beans.
+Health: +5 | Hunger: +9.375 | Sanity: -10
+Effects: Speeds the body, warms the body and wards off sleep.
+
+Bisque
+Requires 3 Units of Limpets and 1 Unit of Ice.
+Health: +60 | Hunger: +18.75 | Sanity: 5
+
+Jelly-o Pop
+Requires 1 Unit of Fish, 1 Unit of Ice and 1 Unit of Twigs.
+Health: +20 | Hunger: +12.5 | Sanity: 0
+Effects: Cools the body.
+
+Shark Fin Soup
+Requires 1 Unit of Shark Fin.
+Health: +40 | Hunger: +12.5 | Sanity: -10
+Effects: Increases naughtiness.
+
+Caviar
+Requires 1 Unit of Roe and 1 Unit of Veggie. Can't have Sweetener and Dairy.
+Health: +3 | Hunger: +12.5 | Sanity: +15
+
+Tropical Bouillabaisse
+Requires 1 Unit of Fish, 1 Unit of Eel, 1 Unit of Wobster and 1 Unit of Barnacle.
+Health: +60 | Hunger: +37.5 | Sanity: +15
+Effects: Speeds the body. (Configurable) and Cools the body.

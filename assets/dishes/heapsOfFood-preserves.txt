@@ -1,0 +1,268 @@
+Mayonnaise
+Requires 1 Unit of Egg, 1 Unit of Oil and 1 Unit of Salt.
+Health: +10 | Hunger: +12.5 | Sanity: +15
+Takes: 1 Day to produce.
+Effects: Restores hunger over time.
+
+Chicken Mayonnaise
+Requires 1 Unit of Chicken Egg, 1 Unit of Oil and 1 Unit of Salt.
+Health: 0 | Hunger: +25 | Sanity: +25
+Takes: 1 Day to produce.
+Effects: Restores hunger over time.
+
+Tallbird Mayonnaise
+Requires 1 Unit of Tallbird Egg, 1 Unit of Oil and 1 Unit of Salt.
+Health: +30 | Hunger: +12.5 | Sanity: +5
+Takes: 1 Day to produce.
+Effects: Restores hunger over time.
+
+Void Mayonnaise
+Requires 1 Unit of Nightmare Fuel,1 Unit of Egg and 1 Unit of Salt.
+Health: +30 | Hunger: +62.5 | Sanity: -5
+Takes: 3 Days to produce.
+Effects: Decreases sanity over time.
+
+Tartar Sauce
+Requires 1 Unit of Mayonnaise, 1 Unit of Spot Spice and 1 Unit of Sea Cucumber.
+Health: +20 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+Effects: Restores hunger over time.
+
+Beefalo Butter
+Requires 2 Units of Beefalo Milk and 1 Unit of Salt.
+Health: 0 | Hunger: +25 | Sanity: +40
+Takes: 4 Days to produce.
+
+Koalefant Butter
+Requires 2 Units of Koalefant Milk and 1 Unit of Salt.
+Health: +20 | Hunger: +25 | Sanity: +20
+Takes: 4 Days to produce.
+
+Volt Goat Butter
+Requires 2 Units of Electric Milk and 1 Unit of Salt.
+Health: +25 | Hunger: +40 | Sanity: 0
+Takes: 4 Days to produce.
+
+Berries Jam
+Requires 2 Units of Berries and 1 Unit of Sweetener.
+Health: +10 | Hunger: +20 | Sanity: +20
+Takes: 2 Days to produce.
+
+Juicy Berries Jam
+Requires 2 Units of Juicy Berries and 1 Unit of Sweetener.
+Health: +10 | Hunger: +20 | Sanity: +20
+Takes: 2 Days to produce.
+
+Pomegranate Jam
+Requires 2 Units of Pomegranate and 1 Unit of Sweetener.
+Health: +10 | Hunger: +25 | Sanity: +30
+Takes: 2 Days to produce.
+
+Dragon Fruit Jam
+Requires 2 Units of Dragon Fruit and 1 Unit of Sweetener.
+Health: +10 | Hunger: +40 | Sanity: +40
+Takes: 2 Days to produce.
+
+Cave Banana Jam
+Requires 2 Units of Cave Banana and 1 Unit of Sweetener.
+Health: +10 | Hunger: +25 | Sanity: +25
+Takes: 2 Days to produce.
+
+Durian Jam
+Requires 2 Units of Durian and 1 Unit of Sweetener.
+Health: -5 | Hunger: +35 | Sanity: -20
+Takes: 2 Days to produce.
+
+Watermelon Jam
+Requires 2 Units of Watermelon and 1 Unit of Sweetener.
+Health: +10 | Hunger: +35 | Sanity: +20
+Takes: 2 Days to produce.
+
+Fig Jam
+Requires 2 Units of Fig and 1 Unit of Sweetener.
+Health: +10 | Hunger: +25 | Sanity: +20
+Takes: 2 Days to produce.
+
+Banana Jam
+Requires 2 Units of Banana and 1 Unit of Sweetener.
+Health: +10 | Hunger: +20 | Sanity: +33
+Takes: 2 Days to produce.
+
+Coconut Jam
+Requires 2 Units of Halved Coconut and 1 Unit of Sweetener.
+Health: +10 | Hunger: +20 | Sanity: +33
+Takes: 2 Days to produce.
+
+Glow Berry Jam
+Requires 2 Units of Glow Berry or Lesser Glow Berry and 1 Unit of Sweetener.
+Health: +10 | Hunger: +40 | Sanity: -10
+Takes: 2 Days to produce.
+Effects: Gives off a healthy glow.
+
+Pineapple Jam
+Requires 2 Units of Halved Pineapple and 1 Unit of Sweetener.
+Health: +33 | Hunger: +25 | Sanity: +15
+Takes: 2 Days to produce.
+
+Nightberry Jam
+Requires 2 Units of Nightberry and 1 Unit Sweetener.
+Health: +0 | Hunger: +25 | Sanity: +10
+Takes 2 Days to produce.
+Effects: Grants night vision.
+
+Pickled Carrot
+Requires 2 Units of Carrot and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +30 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Corn
+Requires 2 Units of Corn and 1 Unit of Spot Spice.
+Health: +25 | Hunger: +35 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Eggplant
+Requires 2 Units of Eggplant and 1 Unit of Spot Spice.
+Health: +35 | Hunger: +25 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Pumpkin
+Requires 2 Units of Pumpkin and 1 Unit of Spot Spice.
+Health: +50 | Hunger: +20 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Lichen
+Requires 2 Units of Lichen and 1 Unit of Spot Spice.
+Health: +30 | Hunger: +15 | Sanity: -15
+Takes: 3 Days to produce.
+
+Pickled Cactus
+Requires 2 Units of Cactus or Cactus Flower and 1 Unit of Spot Spice.
+Health: +50 | Hunger: +25 | Sanity: -10
+Takes: 3 Days to produce.
+
+Pickled Garlic
+Requires 2 Units of Garlic and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +30 | Sanity: -10
+Takes: 3 Days to produce.
+
+Pickled Asparagus
+Requires 2 Units of Asparagus and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Onion
+Requires 2 Units of Onion and 1 Unit of Spot Spice.
+Health: +25 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Toma Root
+Requires 2 Units of Toma Root and 1 Unit of Spot Spice.
+Health: +40 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Potato
+Requires 2 Units of Potato and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +70 | Sanity: -10
+Takes: 3 Days to produce.
+
+Pickled Pepper
+Requires 2 Units of Pepper and 1 Unit of Spot Spice.
+Health: +25 | Hunger: +25 | Sanity: +10
+Takes: 3 Days to produce.
+Effects: Warms the body.
+
+Pickled Red Cap
+Requires 2 Units of Red Cap and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +62.5 | Sanity: -15
+Takes: 3 Days to produce.
+
+Pickled Green Cap
+Requires 2 Units of Green Cap and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +50 | Sanity: -10
+Takes: 3 Days to produce.
+
+Pickled Blue Cap
+Requires 2 Units of Blue Cap and 1 Unit of Spot Spice.
+Health: +30 | Hunger: +30 | Sanity: -5
+Takes: 3 Days to produce.
+
+Pickled Moon Shroom
+Requires 2 Units of Moon Shroom and 1 Unit of Spot Spice.
+Health: +25 | Hunger: +25 | Sanity: +10
+Takes: 3 Days to produce.
+Effects: Wards off sleep.
+
+Pickled Kelp
+Requires 2 Units of Kelp and 1 Unit of Spot Spice.
+Health: +25 | Hunger: +20 | Sanity: -5
+Takes: 3 Days to produce.
+
+Pickled Ripe Stone Fruit
+Requires 2 Units of Ripe Stone Fruit and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +35 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Champignon
+Requires 2 Units of Champignon and 1 Unit of Spot Spice.
+Health: +30 | Hunger: +25 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Aloe
+Requires 2 Units of Aloe and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +25 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Radish
+Requires 2 Units of Radish and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Sweet Potato
+Requires 2 Units of Sweet Potato and 1 Unit of Spot Spice.
+Health: +25 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Lotus Flower
+Requires 2 Units of Lotus Flower and 1 Unit of Spot Spice.
+Health: +33 | Hunger: +33 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Seaweed
+Requires 2 Units of Seaweed and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +62.5 | Sanity: -10
+Takes: 3 Days to produce.
+
+Pickled Taro Root
+Requires 2 Units of Taro Root and 1 Unit of Spot Spice.
+Health: +40 | Hunger: +20 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Watercress
+Requires 2 Units of Watercress and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +40 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickles
+Requires 2 Units of Sea Cucumber and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Parsnip
+Requires 2 Units of Parsnip and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +75 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Turnip
+Requires 2 Units of Turnip and 1 Unit of Spot Spice.
+Health: +40 | Hunger: +32.5 | Sanity: +10
+Takes: 3 Days to produce.
+
+Pickled Fennel
+Requires 2 Units of Fennel and 1 Unit of Spot Spice.
+Health: +30 | Hunger: +40 | Sanity: -15
+Takes: 3 Days to produce.
+
+Pickled Rice
+Requires 2 Units of Rice and 1 Unit of Spot Spice.
+Health: +20 | Hunger: +62.5 | Sanity: +10
+Takes: 3 Days to produce.
