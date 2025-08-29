@@ -43,6 +43,7 @@ export interface Dish {
   requirements?: string;
   effects?: string;
   cookingStation: CookingStation;
+  image: string;
 }
 
 export type CookingStation = "crockPot" | "portableCrockPot" | "keg" | "preservesJar";
