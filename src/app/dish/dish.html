@@ -1,8 +1,14 @@
 <div class="dish-card">
   <mat-card>
     <mat-card-header>
-      <h2>{{ dish().name }}</h2>
+      <mat-card-title-group>
+        <mat-card-title>{{ dish().name }}</mat-card-title>
+        @if (dish().image != '') {
+        <img mat-card-sm-image [src]="'assets/images/' + dish().image" [alt]="dish().name"/>
+        }
+      </mat-card-title-group>
     </mat-card-header>
+
     <mat-card-content>
       <p>Hunger: {{ dish().hungerValue }}</p>
       <p>Sanity: {{ dish().sanityValue }}</p>

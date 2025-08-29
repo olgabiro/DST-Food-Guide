@@ -35,7 +35,7 @@ import {CollectibleDish} from '../completion-help';
 })
 export class CompletionGrid {
   dishes = input.required<CollectibleDish[]>();
-  columnsToDisplay = ['select', 'name', 'cookingStation', 'requirements'];
+  columnsToDisplay = ['select', 'image', 'name', 'cookingStation', 'requirements'];
   completeDish = output<CollectibleDish>()
   uncompleteDish = output<CollectibleDish>()
 
