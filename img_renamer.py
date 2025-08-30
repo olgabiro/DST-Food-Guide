@@ -423,11 +423,11 @@ NEW_NAMES = [
   "banana_pudding",
   "berrybombs",
   "berrysundae",
+  "bowlofpopcorn",
   "brigadeiro",
   "butter_beefalo",
   "butter_goat",
   "butter_koalefant",
-  "catfood",
   "chimas",
   "chipsbag",
   "chocolate_black",
@@ -514,7 +514,6 @@ NEW_NAMES = [
   "pasty_meat",
   "pepperrolls",
   "pickles_rice",
-  "ame",
   "pienapple",
   "pinacolada",
   "pineapplecake",
@@ -539,6 +538,7 @@ NEW_NAMES = [
   "sea_pudding",
   "sharksushi",
   "smores",
+  "soulstew",
   "spice_cold",
   "spice_cold_over",
   "spice_cure",
@@ -560,7 +560,6 @@ NEW_NAMES = [
   "spooky_skullcandy",
   "spooky_tacodile",
   "strawberrygrinder",
-  "succulent_picked",
   "sugarbombs",
   "sugarbombs_explosive",
   "sugarflymuffin",
@@ -601,17 +600,16 @@ NEW_NAMES = [
 import os
 from pathlib import Path
 
+ASSETS_FROM = Path('src/assets/unprocessed')
 ASSETS_DIR = Path('src/assets/images')
 
 def rename_files():
-  if not ASSETS_DIR.exists():
-      raise SystemExit(f"Assets directory not found: {ASSETS_DIR}")
 
-  files = sorted(f for f in ASSETS_DIR.iterdir() if f.is_file())
+  files = sorted(f for f in ASSETS_FROM.iterdir() if f.is_file())
   for i, file in enumerate(files):
-      if i >= len(NAMES):
+      if i >= len(NEW_NAMES):
           break
-      new_name = NAMES[i] + '.png'
+      new_name = NEW_NAMES[i] + '.png'
       new_path = ASSETS_DIR / new_name
       os.rename(file, new_path)
       print(f'Renamed {file.name} to {new_name}')
