@@ -2,7 +2,7 @@ import { Dish } from './dish.service';
 
 export const GORGE_DISHES: Dish[] = [
   { name: 'Loaf of Bread', hungerValue: 12.5, sanityValue: 0, healthValue: 3, requirements: '3-4 Units of Flour. Can\'t have Spot Spice.', effects: 'Gives 3 Units when cooked and Is a Crock Pot ingredient.', cookingStation: "crockPot", image: "gorge_bread.png" },
-  { name: 'Sweet Potato Chips', hungerValue: 75, sanityValue: 15, healthValue: 25, requirements: '2 Units of Sweet Potato, 1 Unit of Oil and 1 Unit of Spot Spice.', cookingStation: "crockPot", image: "" },
+  { name: 'Sweet Potato Chips', hungerValue: 75, sanityValue: 15, healthValue: 25, requirements: '2 Units of Sweet Potato, 1 Unit of Oil and 1 Unit of Spot Spice.', cookingStation: "crockPot", image: "gorge_sweet_chips.png" },
   { name: 'Vegetable Soup', hungerValue: 25, sanityValue: 10, healthValue: 8, requirements: '1 Unit of Carrot, 1 Unit of Onion, 1 Unit of Corn and 1 Unit of Foliage. Can\'t have Potato.', cookingStation: "crockPot", image: "gorge_vegetable_soup.png" },
   { name: 'Jelly Sandwich', hungerValue: 37.5, sanityValue: 15, healthValue: 3, requirements: '1 Unit of Bread, 1 Unit of Berries. Can\'t have Inedible, Veggie, Meat or Fish.', cookingStation: "crockPot", image: "gorge_jelly_sandwich.png" },
   { name: 'Fish Stew', hungerValue: 100, sanityValue: 5, healthValue: 20, requirements: '2 Units of Salmon, 1 Unit of Asparagus and 1 Unit of Spot Spice. Can\'t have Bread.', cookingStation: "crockPot", image: "gorge_fish_stew.png" },
